@@ -1,9 +1,5 @@
----
-title: Know Your Customer
----
-# Know your customer
+# Table of contents
 
-* [KYC on platform](platform)
-* [Main screens](screens)
-* [KYC user roles](roles)
-* [KYC platform actions](actions)
+* [Initial page](README.md)
+* [New Page](new-page.md)
+

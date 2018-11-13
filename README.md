@@ -1,7 +1,2 @@
-Convert GitBook markdown to Wordpress compatible HTML using Jekyll and Travis-CI
+# Initial page
 
-local env
-```
-$ bundle install
-$ bundle exec jekyll serve --livereload
-```
