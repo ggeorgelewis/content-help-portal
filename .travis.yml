@@ -3,9 +3,10 @@ after_success:
   - eval "$(ssh-agent -s)" #start the ssh agent
   - chmod 600 .travis/deploy_key.pem # this key should have push access
   - ssh-add .travis/deploy_key.pem
-  - cd demo-content
-  - git remote add git@github.com:chpmnrssll/help-portal.git
+  - git clone git@github.com:chpmnrssll/help-portal.git
+  - cd ../help-portal
   - git checkout deploy
+  - cp -f ../demo-content/*.*
   - git add .
   - git commit -m "deploy"
   - git push
