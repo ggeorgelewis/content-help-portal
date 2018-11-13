@@ -6,7 +6,7 @@ after_success:
   - cp -f ../demo-content/*.* .
   - git add .
   - git commit -m "deploy"
-  - git push
+  - git push https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
 
   # - git config --global user.email "travis@travis-ci.org"
   # - git config --global user.name "Travis CI"
