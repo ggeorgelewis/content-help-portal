@@ -1,10 +1,7 @@
 language: minimal
 after_success:
-  - eval "$(ssh-agent -s)" #start the ssh agent
-  - chmod 600 .travis/deploy_key.pem # this key should have push access
-  - ssh-add .travis/deploy_key.pem
   - git clone https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
-  - cd ../help-portal
+  - cd help-portal
   - git checkout deploy
   - cp -f ../demo-content/*.*
   - git add .
