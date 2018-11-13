@@ -1,6 +1,7 @@
----
-description: Initial Page Description
-meta: tags & data
-foo: bar
----
-# Initial page
+Convert GitBook markdown to Wordpress compatible HTML using Jekyll and Travis-CI
+
+local env
+```
+$ bundle install
+$ bundle exec jekyll serve --livereload
+```
