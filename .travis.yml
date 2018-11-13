@@ -1,11 +1,11 @@
-language: ruby
-rvm:
-- 2.5.1
+language: minimal
 deploy:
+  skip_cleanup: true
   provider: releases
   api_key:
     secure: JgfvMQHWWF3ZvSDZhWYch0gaeMfNSQ2c5TGp+1X+UVYKT/5cnYutePxEToKMa4PUGFIEg66PeITgkf8iztFeqaEHddgda9eBi/MwN9kMUAkhlukZ1CgJ97g2Bx8YTLMnSJVjlKGMsRVNNrtzobNRNKVNZPsEnFnZ+49eifegOXz8KbToZxb7uxp20Jyo9zAPlE+8SNN9PkGm6I8GxaXz0QfRYiyExUQ3EnKg9XxeQX7OWdmZff3ZG5XLslrC28Q17XzS63+FaVeZ7VIMNtPxqUtRBEEvzujMBuQdMfgvtXJv1eDD4jBBeL/VKNG5+W4lDR+87AmJ6XNdh8j3kPM61L1CBQBsYABlZA/z9f5pFmJmB2WTb6WNdGc0ZX/gHdfja59OW7KqiCjJeuiVDUjEllJ4NGrCh3zmVHnDO0w5jaQrUd9Vvw297P9uBNbEMNd2ddqYeQI6hqOINKnc+5ho4zfl9/kA9E2rF9mQVYT0fH7Njqu2/lTn29ywJ4n1VthEV9eHEONb6wCifi+T9G8eTdu/whiB+sPgR4UvaJ3O2Tj2bSuYEyz4pJqS9vFBerQ+Pdlyj0Sf9pjxG9rRHCMDAR/7r7qEFrTOkaiJ067C5qDDNSNqobq5J+1JG0yedfQ9BFigbWgd0LD5bQ4ybZqHh5f91T7G89rvZq3QBF6ZX9A=
   file_glob: true
-  file: "_site/*"
+  file: "*"
   on:
+    branch: output
     repo: chpmnrssll/help-portal
