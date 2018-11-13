@@ -4,9 +4,11 @@ after_success:
   - chmod 600 .travis/deploy_key.pem # this key should have push access
   - ssh-add .travis/deploy_key.pem
   - cd demo-content
-  - ls
-  - git remote add deploy git@github.com:chpmnrssll/help-portal.git
-  - git push deploy
+  - git remote add git@github.com:chpmnrssll/help-portal.git
+  - git checkout deploy
+  - git add .
+  - git commit -m "deploy"
+  - git push
 # deploy:
 #   skip_cleanup: true
 #   provider: releases
