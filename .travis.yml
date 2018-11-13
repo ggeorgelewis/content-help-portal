@@ -1,14 +1,13 @@
 language: minimal
 after_success:
+  - git clone https://${GH_TOKEN}github.com/chpmnrssll/demo-content.git
   - git clone https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
-  - ls -la
   - cd help-portal
-  - ls -la
-  # - git checkout -b deploy
-  # - cp -f ../demo-content/*.* .
-  # - git add .
-  # - git commit -m "deploy"
-  # - git push https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
+  - git checkout -b deploy
+  - cp -f ../demo-content/*.* .
+  - git add .
+  - git commit -m "deploy"
+  - git push https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
 
   # - git config --global user.email "travis@travis-ci.org"
   # - git config --global user.name "Travis CI"
