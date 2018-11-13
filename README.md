@@ -1,1 +1,2 @@
-Gitbook demo content
+# Initial page
+
