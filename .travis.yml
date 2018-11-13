@@ -3,16 +3,8 @@ after_success:
   - git clone https://${GH_TOKEN}github.com/chpmnrssll/demo-content.git
   - git clone https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
   - cd help-portal
-  - git checkout -b deploy
+  # - git checkout -b deploy
   - cp -f ../demo-content/*.* .
   - git add .
-  - git commit -m "deploy"
+  - git commit -m "GitBook content updated"
   - git push https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
-
-  # - git config --global user.email "travis@travis-ci.org"
-  # - git config --global user.name "Travis CI"
-  # - git checkout -b gh-pages
-  # - git add . *.html
-  # - git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
-  # - git remote add origin-pages https://${GH_TOKEN}@github.com/MVSE-outreach/resources.git > /dev/null 2>&1
-  # - git push --quiet --set-upstream origin-pages gh-pages
