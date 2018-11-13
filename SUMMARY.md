@@ -3,7 +3,7 @@ title: Know Your Customer
 ---
 # Know your customer
 
-* [KYC on platform](platform)
-* [Main screens](screens)
-* [KYC user roles](roles)
-* [KYC platform actions](actions)
+* [KYC on platform](platform.md)
+* [Main screens](screens.md)
+* [KYC user roles](roles.md)
+* [KYC platform actions](actions.md)
