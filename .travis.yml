@@ -1,11 +1,11 @@
 language: minimal
+deploy:
+  skip-cleanup: true
 after_success:
   - git clone https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
   - cd help-portal
   - git checkout -b deploy
-  - cd ..
-  - cp -f demo-content/*.* help-portal/
-  - cd help-portal
+  - cp -f ../demo-content/*.* .
   - git add .
   - git commit -m "deploy"
   - git push https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
