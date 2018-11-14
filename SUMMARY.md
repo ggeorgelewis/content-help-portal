@@ -19,15 +19,8 @@
 
 * [What is Counterparty Management?](counterparty-management/what-is-counterparty-management.md)
 * [Counterparty Management on komgo](counterparty-management/counterparty-management-on-komgo.md)
-* [Counterparty Management Screens](counterparty-management/counterparty-management-on-komgo.md)
+* [Counterparty Management Screens](counterparty-management/counterparty-management-main-screens/README.md)
   * [Counterparty Management on komgo](counterparty-management/counterparty-management-on-komgo.md)
+* [Counterparty Management on komgo](counterparty-management/counterparty-management-platform-actions/README.md)
   * [Counterparty Management on komgo](counterparty-management/counterparty-management-on-komgo.md)
-
-* [Counterparty Management on komgo](counterparty-management/counterparty-management-on-komgo.md)
-  * [Counterparty Management on komgo](counterparty-management/counterparty-management-on-komgo.md)
-
-
-
-
-
 
