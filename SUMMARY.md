@@ -16,3 +16,5 @@
   * [Document Request](know-your-customer-kyc/kyc-platform-actions/document-request.md)
 
 ## Counterparty Management
+
+* [What is Counterparty Management?](know-your-customer-kyc/kyc-platform-actions/document-request.md)
