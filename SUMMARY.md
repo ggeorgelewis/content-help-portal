@@ -1,5 +1,7 @@
 # Summary
 
+## komgo
+
 * [Platform Overview](README.md)
 
 ## Know Your Customer \(KYC\)
@@ -26,4 +28,6 @@
   * [Add corporate counterparties for received trade \(auto\)](counterparty-management/counterparty-management-platform-actions/add-corporate-counterparties-for-received-trade-auto.md)
   * [Review counterparty request](counterparty-management/counterparty-management-platform-actions/review-counterparty-request.md)
   * [View list of authorized counterparties](counterparty-management/counterparty-management-platform-actions/view-list-of-authorized-counterparties.md)
+
+## FAQs - Questions and Answers
 
