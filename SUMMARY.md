@@ -23,6 +23,6 @@
   * [Counterparty Management Screen](counterparty-management/counterparty-management-main-screens/counterparty-management-screen.md)
 * [Counterparty Management Platform Actions](counterparty-management/counterparty-management-platform-actions/README.md)
   * [Add a new counterparty](counterparty-management/counterparty-management-on-komgo.md)
-  * [Add a new counterparty](counterparty-management/counterparty-management-on-komgo.md)
+  * [Add corporate counterparties for received trade \(auto\)](counterparty-management/counterparty-management-on-komgo.md)
   * [Add a new counterparty](counterparty-management/counterparty-management-on-komgo.md)
   * [Add a new counterparty](counterparty-management/counterparty-management-on-komgo.md)
