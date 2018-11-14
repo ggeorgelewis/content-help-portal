@@ -22,7 +22,8 @@
 * [Counterparty Management Screens](counterparty-management/counterparty-management-main-screens/README.md)
   * [Counterparty Management Screen](counterparty-management/counterparty-management-main-screens/counterparty-management-screen.md)
 * [Counterparty Management Platform Actions](counterparty-management/counterparty-management-platform-actions/README.md)
-  * [Add a new counterparty](counterparty-management/counterparty-management-on-komgo.md)
-  * [Add corporate counterparties for received trade \(auto\)](counterparty-management/counterparty-management-on-komgo.md)
-  * [Review counterparty request](counterparty-management/counterparty-management-on-komgo.md)
-  * [View list of authorized counterparties](counterparty-management/counterparty-management-on-komgo.md)
+  * [Add a new counterparty](counterparty-management/counterparty-management-platform-actions/add-a-new-counterparty.md)
+  * [Add corporate counterparties for received trade \(auto\)](counterparty-management/counterparty-management-platform-actions/add-corporate-counterparties-for-received-trade-auto.md)
+  * [Review counterparty request](counterparty-management/counterparty-management-platform-actions/review-counterparty-request.md)
+  * [View list of authorized counterparties](counterparty-management/counterparty-management-platform-actions/view-list-of-authorized-counterparties.md)
+
