@@ -17,4 +17,8 @@
 
 ## Counterparty Management
 
-* [What is Counterparty Management?](know-your-customer-kyc/kyc-platform-actions/document-request.md)
+* [What is Counterparty Management?](counterparty-management/what-is-counterparty-management.md)
+* [Counterparty Management on komgo](counterparty-management/what-is-counterparty-management.md)
+
+
+
