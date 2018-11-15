@@ -2,9 +2,9 @@ language: minimal
 after_success:
   - git clone https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
   - cd help-portal
-  - mkdir gitbook
+  - git checkout -b "Build"
   - shopt -s extglob
-  - cp -rf ../!(help-portal) gitbook
+  - cp -rf ../!(help-portal) .
   - git add .
   - git commit -m "GitBook content updated"
-  - git push https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
+  - git push -u https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git Build
