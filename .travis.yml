@@ -3,11 +3,9 @@ after_success:
   - git clone https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
   - cd help-portal
   # - git checkout -b "Build"
-  - git remote add output https://${GH_TOKEN}github.com/chpmnrssll/static-output.git
   - shopt -s extglob
   - cp -rf ../!(help-portal) .
   - mv SUMMARY.md _includes/
   - git add .
   - git commit -m "GitBook content updated"
-  # - git push -u https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git Build
-  - git push output master
+  - git push -u https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
