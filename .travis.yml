@@ -9,4 +9,4 @@ after_success:
   - mv SUMMARY.md _includes/
   - git add .
   - git commit -m "GitBook content updated"
-  - git push -u https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git Build
+  - git push -u -f https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git Build
