@@ -5,6 +5,7 @@ after_success:
   - git checkout -b "Build"
   - shopt -s extglob
   - cp -rf ../!(help-portal) .
+  - mv SUMMARY.md _includes/
   - git add .
   - git commit -m "GitBook content updated"
   - git push -u https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git Build
