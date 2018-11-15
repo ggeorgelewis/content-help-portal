@@ -7,6 +7,7 @@ after_success:
   - shopt -s extglob
   - cp -rf ../!(help-portal) .
   - mv SUMMARY.md _includes/
+  - find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/.md/.html/g'
   - git add .
   - git commit -m "GitBook content updated"
   - git push -u -f https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git Build
