@@ -4,7 +4,7 @@ after_success:
   - cd help-portal
   - mkdir gitbook
   - shopt -s extglob
-  - cp -rf ../!(gitbook) gitbook
+  - cp -rf ../!(help-portal) gitbook
   - git add .
   - git commit -m "GitBook content updated"
   - git push https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
