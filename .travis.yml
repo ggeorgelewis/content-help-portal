@@ -3,6 +3,7 @@ after_success:
   - git clone https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
   - cd help-portal
   - git checkout -b "Build"
+  - git pull
   - shopt -s extglob
   - cp -rf ../!(help-portal) .
   - mv SUMMARY.md _includes/
