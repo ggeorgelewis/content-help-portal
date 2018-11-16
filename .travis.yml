@@ -23,13 +23,13 @@ after_success:
   - mv README.md index.md
 
   # pre-convert SUMMARY.md to static HTML, save in _includes/ folder
-  - pandoc --to html SUMMARY.md --output _includes/SUMMARY.html
+  - pandoc --from gfm --to html SUMMARY.md --output _includes/SUMMARY.html
 
   #  add {{ site.baseurl }} to all links in SUMMARY.html
   - sed -i -e 's/href="/href="{{ site.baseurl }}\//g' _includes/SUMMARY.html
 
   #  change link to README.html to index.html in _includes/SUMMARY.html
-  - sed -i -e 's/(README.html)/\/g' _includes/SUMMARY.html
+  - sed -i -e 's/(README.html)//g' _includes/SUMMARY.html
 
   # push to "Build" branch to trigger new Jekyll build
   - git add .
