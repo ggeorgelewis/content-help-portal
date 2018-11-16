@@ -20,7 +20,7 @@ after_success:
   - pandoc --to html SUMMARY.md --output _includes/SUMMARY.html
 
   #  add {{ site.baseurl }} to all links in SUMMARY.html
-  - sed -i -e 's/href="/href="{{ site.baseurl }}\//g' SUMMARY.html
+  - sed -i -e 's/href="/href="{{ site.baseurl }}\//g' _includes/SUMMARY.html
 
   # push to "Build" branch to trigger new Jekyll build
   - git add .
