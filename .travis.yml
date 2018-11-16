@@ -23,7 +23,7 @@ after_success:
   - mv README.md index.md
 
   # pre-convert SUMMARY.md to static HTML, save in _includes/ folder
-  - pandoc --from gfm --to html SUMMARY.md --output _includes/SUMMARY.html
+  - pandoc --to html SUMMARY.md --output _includes/SUMMARY.html
 
   #  add {{ site.baseurl }} to all links in SUMMARY.html
   - sed -i -e 's/href="/href="{{ site.baseurl }}\//g' _includes/SUMMARY.html
