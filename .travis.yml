@@ -11,7 +11,7 @@ after_success:
   - cp -rf ../!(help-portal) .
   # - mv SUMMARY.md _includes/
   - find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/.md/.html/g'
-  - pandoc --from gfm --to html SUMMARY.md --output _includes/SUMMARY.html
+  - pandoc --to html SUMMARY.md --output _includes/SUMMARY.html
   - ls -la
   - git add .
   - git commit -m "GitBook content updated"
