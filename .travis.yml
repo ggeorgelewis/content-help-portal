@@ -6,16 +6,14 @@ after_success:
   # clone the jekyll template and create a new "Build" branch
   - git clone https://${GITHUB_TOKEN}@github.com/chpmnrssll/help-portal.git
   - cd help-portal
-  - ls
   - git checkout -b "Build"
-  - ls
-  - git pull
-  - ls
+  # - git pull
 
   # copy/overwrite all the GitBook content to this repo
   - shopt -s extglob
   - cp -rf ../!(help-portal) .
 
+  - ls
   # find/replace .md file extensions to .html on all links
   - find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/.md/.html/g'
 
