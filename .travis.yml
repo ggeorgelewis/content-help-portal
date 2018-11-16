@@ -18,16 +18,16 @@ after_success:
   - find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/.md/.html/g'
 
   # find/add {{ site.baseurl}}/assets to all images in markdown
-  - find . -type f -name "*.md" -print0 | xargs -0 sed -i -e 's/\/assets\//{{ site.baseurl }}\/assets\//g'
+  - find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/\/assets\//{{ site.baseurl }}\/assets\//g'
+
+  # add front-matter permalink: /index.html to README.md
+  - sed -i -e 's/---/---\npermalink: \/index.html/g' ./README.md
 
   # pre-convert SUMMARY.md to static HTML, save in _includes/ folder
   - pandoc --to html SUMMARY.md --output _includes/SUMMARY.html
 
   #  add {{ site.baseurl }} to all links in SUMMARY.html
   - sed -i -e 's/href="/href="{{ site.baseurl }}\//g' _includes/SUMMARY.html
-
-  # add front-matter permalink: /index.html to README.md
-  - sed -i -e 's/---/---\npermalink: \/index.html/g' README.md
 
   # push to "Build" branch to trigger new Jekyll build
   - git add .
