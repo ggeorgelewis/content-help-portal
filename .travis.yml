@@ -4,7 +4,7 @@ before_install:
   - sudo apt-get install -y pandoc
 after_success:
   # clone the jekyll template and create a new "Build" branch
-  - git clone https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
+  - git clone https://${GITHUB_TOKEN}@github.com/chpmnrssll/help-portal.git
   - cd help-portal
   - git checkout -b "Build"
   - git pull
@@ -25,4 +25,4 @@ after_success:
   # push to "Build" branch to trigger new Jekyll build
   - git add .
   - git commit -m "GitBook content updated"
-  - git push -u -f https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git Build
+  - git push -u -f https://${GITHUB_TOKEN}@github.com/chpmnrssll/help-portal.git Build
