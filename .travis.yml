@@ -3,16 +3,26 @@ before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -y pandoc
 after_success:
+  # clone the jekyll template and create a new "Build" branch
   - git clone https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
   - cd help-portal
   - git checkout -b "Build"
   - git pull
+
+  # copy/overwrite all the GitBook content to this repo
   - shopt -s extglob
   - cp -rf ../!(help-portal) .
-  # - mv SUMMARY.md _includes/
+
+  # find/replace .md file extensions to .html on all links
   - find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/.md/.html/g'
+
+  # pre-convert SUMMARY.md to static HTML, save in _includes/ folder
   - pandoc --to html SUMMARY.md --output _includes/SUMMARY.html
-  - ls -la
+
+  #  add {{ site.baseurl }} to all links in SUMMARY.html
+  - sed -i -e 's/href="/href="{{ site.baseurl }}\//g' SUMMARY.html
+
+  # push to "Build" branch to trigger new Jekyll build
   - git add .
   - git commit -m "GitBook content updated"
   - git push -u -f https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git Build
