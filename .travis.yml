@@ -13,6 +13,9 @@ after_success:
   - shopt -s extglob
   - cp -rf ../!(help-portal) .
 
+  #  change link url for README.md to / in SUMMARY.md
+  - sed -i -e 's/(README.md)//g' SUMMARY.md
+
   # find/replace .md file extensions to .html on all links
   - find . -type f -name "*.md" -print0 | xargs -0 sed -i -e 's/.md/.html/g'
 
@@ -27,9 +30,6 @@ after_success:
 
   #  add {{ site.baseurl }} to all links in SUMMARY.html
   - sed -i -e 's/href="/href="{{ site.baseurl }}\//g' _includes/SUMMARY.html
-
-  #  change link to README.html to index.html in _includes/SUMMARY.html
-  - sed -i -e 's/(README.html)//g' _includes/SUMMARY.html
 
   # push to "Build" branch to trigger new Jekyll build
   - git add .
