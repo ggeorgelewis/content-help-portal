@@ -25,6 +25,9 @@ after_success:
   #  add {{ site.baseurl }} to all links in SUMMARY.html
   - sed -i -e 's/href="/href="{{ site.baseurl }}\//g' _includes/SUMMARY.html
 
+  # add front-matter permalink: /index.html to README.md
+  - sed -i -e 's/---/---\npermalink: \/index.html/g' README.md
+
   # push to "Build" branch to trigger new Jekyll build
   - git add .
   - git commit -m "GitBook content updated"
