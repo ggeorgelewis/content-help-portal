@@ -7,6 +7,7 @@ after_success:
   - git clone https://${GITHUB_TOKEN}@github.com/chpmnrssll/help-portal.git
   - cd help-portal
   - git checkout -b "Build"
+  - git pull origin master
 
   # copy/overwrite all the GitBook content to this repo
   - shopt -s extglob
