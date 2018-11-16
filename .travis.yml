@@ -16,6 +16,9 @@ after_success:
   # find/replace .md file extensions to .html on all links
   - find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/.md/.html/g'
 
+  # find/add {{ site.baseurl}}/assets to all images in markdown
+  - find . -type f -name "*.md" -print0 | xargs -0 sed -i -e 's/\/assets\//{{ site.baseurl }}\/assets\//g'
+
   # pre-convert SUMMARY.md to static HTML, save in _includes/ folder
   - pandoc --to html SUMMARY.md --output _includes/SUMMARY.html
 
