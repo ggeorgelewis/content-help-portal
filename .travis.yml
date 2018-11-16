@@ -13,8 +13,8 @@ after_success:
   - shopt -s extglob
   - cp -rf ../!(help-portal) .
 
-  #  change link url for README.md to / in SUMMARY.md
-  - sed -i -e 's/(README.md)//g' SUMMARY.md
+  #  change link url for README.md to index.md in SUMMARY.md
+  - sed -i -e 's/(README.md)/(index.md)/g' SUMMARY.md
 
   # find/replace .md file extensions to .html on all links
   - find . -type f -name "*.md" -print0 | xargs -0 sed -i -e 's/.md/.html/g'
