@@ -19,7 +19,7 @@ after_success:
   - find . -type f -name "*.md" -print0 | xargs -0 sed -i -e 's/\/assets\//{{ site.baseurl }}\/assets\//g'
 
   # add front-matter permalink: /index.html to README.md
-  - sed -i -e 's/---/---\npermalink\:\/index.html/g' README.md
+  - sed -i -e 's/---/---\npermalink\:\ \/index.html/g' README.md
 
   # pre-convert SUMMARY.md to static HTML, save in _includes/ folder
   - pandoc --to html SUMMARY.md --output _includes/SUMMARY.html
