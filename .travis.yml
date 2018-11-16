@@ -1,4 +1,7 @@
 language: minimal
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -y pandoc
 after_success:
   - git clone https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git
   - cd help-portal
@@ -6,8 +9,10 @@ after_success:
   - git pull
   - shopt -s extglob
   - cp -rf ../!(help-portal) .
-  - mv SUMMARY.md _includes/
+  # - mv SUMMARY.md _includes/
   - find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/.md/.html/g'
+  - pandoc --from gfm --to html SUMMARY.md --output _includes/SUMMARY.html
+  - ls -la
   - git add .
   - git commit -m "GitBook content updated"
   - git push -u -f https://${GH_TOKEN}@github.com/chpmnrssll/help-portal.git Build
