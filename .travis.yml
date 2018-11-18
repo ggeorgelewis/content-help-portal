@@ -1,7 +1,8 @@
 language: minimal
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-get install -y pandoc
+  - wget https://github.com/jgm/pandoc/releases/download/2.4/pandoc-2.4-1-amd64.deb
+  - sudo dpkg -i pandoc-2.4-1-amd64.deb
 after_success:
   # clone the jekyll template and create a new "Build" branch
   - git clone https://${GITHUB_TOKEN}@github.com/chpmnrssll/help-portal.git
@@ -26,7 +27,7 @@ after_success:
   - mv README.md index.md
 
   # pre-convert SUMMARY.md to static HTML, save in _includes/ folder
-  - pandoc --to html SUMMARY.md --output _includes/SUMMARY.html
+  - pandoc --from gfm --to html SUMMARY.md --output _includes/SUMMARY.html
 
   #  add {{ site.baseurl }} to all links in SUMMARY.html
   - sed -i -e 's/href="/href="{{ site.baseurl }}\//g' _includes/SUMMARY.html
