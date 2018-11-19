@@ -20,6 +20,8 @@
 
 * [What is User Administration?](user-administration/what-is-user-administration.md)
 * [User Administration on komgo](user-administration/user-administration-on-komgo.md)
+* [Main screens](user-administration/main-screens.md)
+  * [Role Management](user-administration/main-screens/role-management.md)
 
 ## Know Your Customer \(KYC\)
 
