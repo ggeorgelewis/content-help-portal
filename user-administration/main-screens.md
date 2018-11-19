@@ -6,7 +6,7 @@ audience:
 
 ---
 
-# Main Screens
+# User Administration Screens
 
 Two main screens are used to manage Administration:
 

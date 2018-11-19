@@ -4,6 +4,18 @@
 
 * [Platform Overview](README.md)
 
+## User Administration
+
+* [What is User Administration?](user-administration/what-is-user-administration.md)
+* [User Administration on komgo](user-administration/user-administration-on-komgo.md)
+* [User Administration screens](user-administration/main-screens.md)
+  * [Role Management](user-administration/main-screens/role-management.md)
+  * [User Management](user-administration/main-screens/user-management.md)
+* [Administration Roles on komgo  ](user-administration/administration-roles-on-komgo.md)
+* [Administration Platform Actions](user-administration/administration-platform-actions.md)
+  * [Role management](user-administration/administration-platform-actions/role-management.md)
+  * [User management](user-administration/administration-platform-actions/user-management.md)
+
 ## Counterparty Management
 
 * [What is Counterparty Management?](counterparty-management/what-is-counterparty-management.md)
@@ -15,18 +27,6 @@
   * [Add corporate counterparties for received trade \(auto\)](counterparty-management/counterparty-management-platform-actions/add-corporate-counterparties-for-received-trade-auto.md)
   * [Review counterparty request](counterparty-management/counterparty-management-platform-actions/review-counterparty-request.md)
   * [View list of authorized counterparties](counterparty-management/counterparty-management-platform-actions/view-list-of-authorized-counterparties.md)
-
-## User Administration
-
-* [What is User Administration?](user-administration/what-is-user-administration.md)
-* [User Administration on komgo](user-administration/user-administration-on-komgo.md)
-* [Main screens](user-administration/main-screens.md)
-  * [Role Management](user-administration/main-screens/role-management.md)
-  * [User Management](user-administration/main-screens/user-management.md)
-* [Administration Roles on komgo  ](user-administration/administration-roles-on-komgo.md)
-* [Administration Platform Actions](user-administration/administration-platform-actions.md)
-  * [Role management](user-administration/administration-platform-actions/role-management.md)
-  * [User management](user-administration/administration-platform-actions/user-management.md)
 
 ## Know Your Customer \(KYC\)
 
