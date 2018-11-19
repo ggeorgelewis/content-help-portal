@@ -8,7 +8,7 @@
 
 * [What is User Administration?](user-administration/what-is-user-administration.md)
 * [User Administration on komgo](user-administration/user-administration-on-komgo.md)
-* [User Administration screens](user-administration/main-screens.md)
+* [User Administration Screens](user-administration/main-screens.md)
   * [Role Management](user-administration/main-screens/role-management.md)
   * [User Management](user-administration/main-screens/user-management.md)
 * [Administration Roles on komgo  ](user-administration/administration-roles-on-komgo.md)
@@ -33,10 +33,13 @@
 
 * [What is KYC?](know-your-customer-kyc/what-is-kyc.md)
 * [KYC on komgo](know-your-customer-kyc/kyc-on-komgo.md)
-* [Main screens](know-your-customer-kyc/main-screens/README.md)
+* [KYC Screens](know-your-customer-kyc/main-screens/README.md)
   * [Counterparty Docs Screen](know-your-customer-kyc/main-screens/counterparty-docs-screen.md)
   * [Document Library](know-your-customer-kyc/main-screens/document-library.md)
   * [Template Manager Screen](know-your-customer-kyc/main-screens/template-manager-screen.md)
+* [KYC user roles on komgo](know-your-customer-kyc/kyc-user-roles-on-komgo.md)
+  * [KYC Manager & Analyst \(Bank\)](know-your-customer-kyc/kyc-user-roles-on-komgo/kyc-manager-and-analyst-bank.md)
+  * [Compliance Analyst & Manager \(Corporates\)](know-your-customer-kyc/kyc-user-roles-on-komgo/compliance-analyst-and-manager-corporates.md)
 * [KYC platform actions](know-your-customer-kyc/kyc-platform-actions/README.md)
   * [Document Request with the template \(Load Template Button\)](know-your-customer-kyc/kyc-platform-actions/document-request-with-the-template-load-template-button.md)
   * [Create Document Request Template](know-your-customer-kyc/kyc-platform-actions/create-document-request-template.md)
