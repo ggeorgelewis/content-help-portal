@@ -44,6 +44,13 @@
   * [Document Request with the template \(Load Template Button\)](know-your-customer-kyc/kyc-platform-actions/document-request-with-the-template-load-template-button.md)
   * [Create Document Request Template](know-your-customer-kyc/kyc-platform-actions/create-document-request-template.md)
   * [Document Request](know-your-customer-kyc/kyc-platform-actions/document-request.md)
+  * [Complete Request](know-your-customer-kyc/kyc-platform-actions/complete-request.md)
+  * Register Document
+  * Send Response
+  * Download and Save Documents
+  * Review Documents
+  * View a Document
+  * Share Document Ad Hoc
 
 ## FAQs - Questions and Answers
 

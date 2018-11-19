@@ -9,6 +9,6 @@ audience:
 
 The role within Counterparty Management:
 
-* Relationship Manager (Bank)
+* Relationship Manager \(Bank\)
 
 ![](/assets/user_manual_4.png)

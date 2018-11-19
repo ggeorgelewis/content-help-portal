@@ -10,5 +10,5 @@ audience:
 
 KYC has the following roles:
 
-* KYC Analyst and/or Manager (Bank)
-* Compliance Analyst and/or Manager (Corporates)
+* KYC Analyst and/or Manager \(Bank\)
+* Compliance Analyst and/or Manager \(Corporates\)
