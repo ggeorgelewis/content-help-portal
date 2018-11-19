@@ -45,7 +45,7 @@
   * [Create Document Request Template](know-your-customer-kyc/kyc-platform-actions/create-document-request-template.md)
   * [Document Request](know-your-customer-kyc/kyc-platform-actions/document-request.md)
   * [Complete Request](know-your-customer-kyc/kyc-platform-actions/complete-request.md)
-  * Register Document
+  * [Register Document](know-your-customer-kyc/kyc-platform-actions/register-document.md)
   * Send Response
   * Download and Save Documents
   * Review Documents
