@@ -46,11 +46,11 @@
   * [Document Request](know-your-customer-kyc/kyc-platform-actions/document-request.md)
   * [Complete Request](know-your-customer-kyc/kyc-platform-actions/complete-request.md)
   * [Register Document](know-your-customer-kyc/kyc-platform-actions/register-document.md)
-  * Send Response
-  * Download and Save Documents
-  * Review Documents
-  * View a Document
-  * Share Document Ad Hoc
+  * [Send Response](know-your-customer-kyc/kyc-platform-actions/send-response.md)
+  * [Download and Save Documents](know-your-customer-kyc/kyc-platform-actions/download-and-save-documents.md)
+  * [Review Documents](know-your-customer-kyc/kyc-platform-actions/review-documents.md)
+  * [View a Document](know-your-customer-kyc/kyc-platform-actions/view-a-document.md)
+  * [Share Document Ad Hoc](know-your-customer-kyc/kyc-platform-actions/share-document-ad-hoc.md)
 
 ## FAQs - Questions and Answers
 
