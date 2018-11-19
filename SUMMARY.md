@@ -23,6 +23,7 @@
 * [Main screens](user-administration/main-screens.md)
   * [Role Management](user-administration/main-screens/role-management.md)
   * [User Management](user-administration/main-screens/user-management.md)
+* [Administration Roles on komgo  ](user-administration/administration-roles-on-komgo.md)
 
 ## Know Your Customer \(KYC\)
 
