@@ -8,8 +8,6 @@ audience:
 
 # Role Management
 
-
-
 The Role Management screen lists the available roles and their associated description.
 
 komgo provides a set of predefined system roles, which can be used as a starting point. Administrators manage roles by adding, editing or deleting them.
