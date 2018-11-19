@@ -55,6 +55,9 @@
 ## Trade Finance
 
 * [Main parties on komgo](trade-finance/main-parties-on-komgo.md)
+* [Trade Finance on komgo](trade-finance/trade-finance-on-komgo.md)
+* [Main dashboards](trade-finance/main-dashboards.md)
+  * [Trade Dashboard](trade-finance/main-dashboards/trade-dashboard.md)
 
 ## FAQs - Questions and Answers
 
