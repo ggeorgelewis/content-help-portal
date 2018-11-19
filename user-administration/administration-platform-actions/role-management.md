@@ -16,9 +16,9 @@ Click the **Administration \&gt; Role Management** menu buttons on the left side
 
 Administrators can add a new role with a customized set of permissions on the komgo platform.
 
-On the Role Management screen, click _**Add New**_ and enter the _**role title**_ and a _**role description**_. Select the** actions **and** associated permissions **one or more functionalities from the list to define the roles authorizations on the komgo platform in the** permissions** tab.
+On the Role Management screen, click _**Add New**_ and enter the _**role title**_ and a _**role description**_. Select the _**actions**_ and _**associated permissions**_ one or more functionalities from the list to define the roles authorizations on the komgo platform in the _**permissions**_ tab.
 
-You can now assign the selected role to a user(s) by navigating to the **Users** tab and clicking a user&#39;s name (e.g. Bob)  on the right hand side to assign and left hand side to unassign the selected user the role. Once you have added the user(s) to the role click **Create Role** or click **Cancel** to delete the above actions performed.
+You can now assign the selected role to a user(s) by navigating to the _**Users**_ tab and clicking a user&#39;s name (e.g. Bob)  on the right hand side to assign and left hand side to unassign the selected user the role. Once you have added the user(s) to the role click _**Create Role**_ or click _**Cancel**_ to delete the above actions performed.
 
 #### _Manage roles_
 
