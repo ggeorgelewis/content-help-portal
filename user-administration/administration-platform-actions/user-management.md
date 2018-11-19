@@ -10,7 +10,7 @@ audience:
 
 #### _View users_
 
-Click the **Administration \&gt; User Management** menu buttons on the left side of the screen to be transitioned to the Keycloak website where the Administrator manages the komgo users. The user is automatically logged into the keycloak application.
+Click the _**Administration &gt; User Management**_ menu buttons on the left side of the screen to be transitioned to the Keycloak website where the Administrator manages the komgo users. The user is automatically logged into the keycloak application.
 
 #### _View User_
 
