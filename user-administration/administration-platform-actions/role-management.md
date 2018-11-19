@@ -10,7 +10,7 @@ audience:
 
 #### _View roles_
 
-Click the **Administration \&gt; Role Management** menu buttons on the left side of the screen to be transitioned to a list view of all of the available roles.
+Click the _**Administration &gt; Role Management**_ menu buttons on the left side of the screen to be transitioned to a list view of all of the available roles.
 
 #### _Add role_
 
