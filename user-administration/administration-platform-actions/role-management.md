@@ -22,10 +22,10 @@ You can now assign the selected role to a user(s) by navigating to the _**Users*
 
 #### _Manage roles_
 
-Administrators can edit and delete an existing role custom role. Predefined system roles cannot be deleted, but assign or unassigned to users through the **Edit** feature.
+Administrators can edit and delete an existing role custom role. Predefined system roles cannot be deleted, but assign or unassigned to users through the _**Edit**_ feature.
 
-To delete an existing role, click the **ellipsis** beside the custom role and click **Delete** the role. Click **Delete** or **Cancel** in the confirmation box.
+To delete an existing role, click the _**ellipsis**_ beside the custom role and click _**Delete**_ the role. Click _**Delete**_ or _**Cancel**_ in the confirmation box.
 
-To modify an existing role, click the **ellipsis** (e.g. Trade Finance Manager) and click the **Edit** to modify the role. On the edit screen, the user can view the role title and edit the role description, the actions and associated permissions and assigned users. If the user has modified the role they can click **Update Role** or click **Cancel** to return the role to its unedited state.
+To modify an existing role, click the _**ellipsis**_ (e.g. Trade Finance Manager) and click the _**Edit**_ to modify the role. On the edit screen, the user can view the role title and edit the role description, the actions and associated permissions and assigned users. If the user has modified the role they can click _**Update Role**_ or click _**Cancel**_ to return the role to its unedited state.
 
 For predefined system roles provided by the komgo platform the role editing feature is limited to modifying the assignment of users to the given role.
