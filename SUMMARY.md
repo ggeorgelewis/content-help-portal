@@ -52,5 +52,9 @@
   * [View a Document](know-your-customer-kyc/kyc-platform-actions/view-a-document.md)
   * [Share Document Ad Hoc](know-your-customer-kyc/kyc-platform-actions/share-document-ad-hoc.md)
 
+## Trade Finance
+
+* [Main parties on komgo](trade-finance/main-parties-on-komgo.md)
+
 ## FAQs - Questions and Answers
 
