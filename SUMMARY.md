@@ -24,6 +24,9 @@
   * [Role Management](user-administration/main-screens/role-management.md)
   * [User Management](user-administration/main-screens/user-management.md)
 * [Administration Roles on komgo  ](user-administration/administration-roles-on-komgo.md)
+* [Administration Platform Actions](user-administration/administration-platform-actions.md)
+  * [Role management](user-administration/administration-platform-actions/role-management.md)
+  * [User management](user-administration/administration-platform-actions/user-management.md)
 
 ## Know Your Customer \(KYC\)
 
