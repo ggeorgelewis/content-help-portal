@@ -19,6 +19,7 @@
 ## User Administration
 
 * [What is User Administration?](user-administration/what-is-user-administration.md)
+* [User Administration on komgo](user-administration/user-administration-on-komgo.md)
 
 ## Know Your Customer \(KYC\)
 

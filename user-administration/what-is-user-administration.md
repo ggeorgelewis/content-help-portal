@@ -1,9 +1,9 @@
 ---
 
 product: User Administration
-capability:
+capability: 
 infotype: Overview
-audience:
+audience: 
 
 ---
 # What is User Administration?
