@@ -10,5 +10,3 @@ audience:
 
 The role of Administration:
 
-![](/assets/user_manual (1).jpg)
-
