@@ -80,6 +80,7 @@
   * [Flow Diagram](general-information/technical-on-boarding/flow-diagram.md)
   * [JSON Schema for Information Sent by komgo](general-information/technical-on-boarding/json-schema-for-information-sent-by-komgo.md)
   * [Kaleido account setup](general-information/technical-on-boarding/kaleido-account-setup.md)
+  * [Harbor Account Setup](general-information/technical-on-boarding/harbor-account-setup.md)
 
 ## FAQs - Questions and Answers
 
