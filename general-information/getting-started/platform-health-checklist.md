@@ -51,5 +51,30 @@ Expected Output:
 
 #### Check if all microservices started
 
+For every docker container whose name starts with komgo-api-*, verify the logs
+
+Ensure that "Server Started!" message is shown
+
+Command:
+Docker logs komgo-api-<servicename>
+
+Expected Output:
+info:
+\------------
+Server Started!
+\------------
+
+info: listening on port 80
+
+#### Check if keycloak server started
+
+Verify the docker logs for komgo-keycloak container
+
+Ensure that the log states "Keycloak 4.1.0 Final \(WildFly core 3.0.8 Final\) started in nnnnn ms - Started" \(note, the version numbers may be different in your output\)
+
+Command:
+Docker logs komgo-keycloak
+
+Expected Output:
 
 
