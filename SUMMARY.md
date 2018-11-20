@@ -78,6 +78,7 @@
 * [Technical On-boarding](general-information/technical-on-boarding.md)
   * [High level flow](general-information/technical-on-boarding/high-level-flow.md)
   * [Flow Diagram](general-information/technical-on-boarding/flow-diagram.md)
+  * [JSON Schema for Information Sent by komgo](general-information/technical-on-boarding/json-schema-for-information-sent-by-komgo.md)
 
 ## FAQs - Questions and Answers
 
