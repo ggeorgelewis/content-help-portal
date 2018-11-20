@@ -72,6 +72,8 @@
 * [Platform Overview](general-information/platform-overview.md)
   * [Components \(Deployment View\)](general-information/platform-overview/components-deployment-view.md)
   * [Key Concepts](general-information/platform-overview/key-concepts.md)
+* [Pre-requisites](general-information/pre-requisites.md)
+  * [Completion of Business On-boarding](general-information/pre-requisites/completion-of-business-on-boarding.md)
 
 ## FAQs - Questions and Answers
 
