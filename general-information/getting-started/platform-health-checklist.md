@@ -47,7 +47,9 @@ Command:
 Docker logs komgo-api-gateway
 
 Expected Output:
+```
 172.18.0.1 - - [20/Sep/2018:08:50:20 +0000] "GET / HTTP/1.1" 200 649 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+```
 
 #### Check if all microservices started
 
@@ -59,12 +61,14 @@ Command:
 Docker logs komgo-api-<servicename>
 
 Expected Output:
+```
 info:
-\------------
+------------
 Server Started!
-\------------
+------------
 
 info: listening on port 80
+```
 
 #### Check if keycloak server started
 
@@ -76,5 +80,11 @@ Command:
 Docker logs komgo-keycloak
 
 Expected Output:
-
+```
+13:26:00,308 INFO [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+13:26:00,378 INFO [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+13:26:00,383 INFO [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+13:26:00,383 INFO [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+13:26:00,383 INFO [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 4.1.0.Final (WildFly Core 3.0.8.Final) started in 14464ms - Started 546 of 882 services (604 services are lazy, passive or on-demand)
+```
 
