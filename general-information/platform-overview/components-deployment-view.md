@@ -59,3 +59,25 @@ Members can choose to host MongoDB inside the docker container, or create a DB i
 #### Microservices API, Gateway
 
 Every member node will run a node.js based API Gateway and several microservices \(provided as docker images by komgo\). The microservices perform all business rules / workflows, and support the Front End Application. Access control for the services will be via Keycloak.
+
+#### Front-end Application
+
+Every member node will run a react based front-end application, delivered as a docker image. The front end application will connect to the micro-services, and will be access controlled via keycloak.
+
+#### Kubernetes Cluster
+
+All the docker images delivered by komgo are compatible with Kubernetes, and can be deployed in a Kubernetes cluster. 
+
+It would be the responsibility of the Member Company to manage the kubernetes cluster configuration, komgo will not provide the configuration.
+
+The fully managed instances managed by komgo are being deployed on a Kubernetes cluster.
+
+Troubleshooting Kubernetes configurations would be the responsibility of Member Companies, and komgo will not provide support.
+
+#### Log streaming
+
+komgo services write logs in a logstash compatible format, and can be routed to any log monitoring platform such as Kibana.
+
+Kaleido supports AWS CloudWatch for Log streaming, and CloudWatch can be configured to export or stream logs to other end points.
+
+#### Topology - Fully Managed offering \(Hosting by komgo/Consensys\)
