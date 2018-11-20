@@ -62,9 +62,12 @@
   * [LC Advised](trade-finance/trade-finance-platform-actions/lc-advised.md)
   * [LC Acknowledge](trade-finance/trade-finance-platform-actions/lc-acknowledge.md)
 
-## FAQs - Questions and Answers
-
-## General Information
+## Technical Guide
 
 * [General Information](general-information/test.md)
+* [komgo Production Support Systems](general-information/komgo-production-support-systems.md)
+* [komgo Key Terminology](general-information/komgo-key-terminology.md)
+  * [kapsule](general-information/komgo-key-terminology/kapsule.md)
+
+## FAQs - Questions and Answers
 

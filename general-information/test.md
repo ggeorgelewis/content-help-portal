@@ -1,5 +1,5 @@
 ---
-product: General Information
+product: Technical Guide
 capability:
 infotype: Overview
 audience:
