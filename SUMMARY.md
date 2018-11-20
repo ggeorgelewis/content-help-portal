@@ -66,5 +66,5 @@
 
 ## General Information
 
-* [test](general-information/test.md)
+* [General Information](general-information/test.md)
 
