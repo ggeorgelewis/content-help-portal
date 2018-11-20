@@ -82,6 +82,7 @@
   * [Kaleido account setup](general-information/technical-on-boarding/kaleido-account-setup.md)
   * [Harbor Account Setup](general-information/technical-on-boarding/harbor-account-setup.md)
 * [Setup](general-information/setup.md)
+  * [Download](general-information/setup/download.md)
 
 ## FAQs - Questions and Answers
 
