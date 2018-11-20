@@ -25,3 +25,14 @@ Applicants can fill out the LC application:
 | LC Type          | Choose the LC template type (komgo BFOET template or Freetext LC). Type of LC and Applicable Rules are defined here.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | LC Details       | Fill in LC details such as: 1. LC Amount, defaulted to &#39; quantity&#39;  multiplied by &#39; price&#39;  2. Currency, defaulted to trade &#39; currency&#39;  3. Expiry Date, defaulted to &#39; delivery to&#39;  date plus 45 days 4. Presentation period field defaulted to 21 days &quot; Documents presented later than 21 days after the B/L date or deemed B/L or date of completion of pumpover but within the LC validity are acceptable&quot;  Select option to allow an Letter of Indemnity. If selected, the Applicant must select which documents the LOI will be replacing, and choose between a komgo template and free text. |
 
+#### Review komgo LC
+
+An applicant can see a PDF version of their LC application with the data inserted into the komgo LC template.
+
+This screen is only available if the applicant chooses the komgo LC template in the LC Type screen.
+
+#### Submit application
+
+Applicants click _**Submit Application**_ to submit the LC Application to the Issuing Bank.
+
+komgo automatically generates a LC reference after the user submits the LC application form to the issuing bank.
