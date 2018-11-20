@@ -65,6 +65,7 @@
   * [Middle/Back Office Manager \(Banks\)](trade-finance/trade-finance-roles-on-komgo/middleback-office-manager-banks.md)
 * [Trade Finance Platform Actions](trade-finance/trade-finance-platform-actions.md)
   * [View Trade dashboard](trade-finance/trade-finance-platform-actions/view-trade-dashboard.md)
+  * [View Trade Details](trade-finance/trade-finance-platform-actions/view-trade-details.md)
 
 ## FAQs - Questions and Answers
 
