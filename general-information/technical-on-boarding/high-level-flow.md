@@ -7,7 +7,7 @@ audience:
 
 # High level flow
 
-After the Member Company completes the business on-boarding, the IT Administrator of the Member Company can start to perform the technical on-boarding steps by working with the komgo support Admin
+After the Member Company completes the business on-boarding<TODO: Include link here to business on-boarding document>, the IT Administrator of the Member Company can start to perform the technical on-boarding steps by working with the komgo support Admin
 
 High level steps are:
 
