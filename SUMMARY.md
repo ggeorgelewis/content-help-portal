@@ -86,6 +86,8 @@
   * [Installation and Configuration](general-information/setup/installation-and-configuration.md)
   * [Data Persistence and Management](general-information/setup/data-persistence-and-management.md)
   * [Upgrades](general-information/setup/upgrades.md)
+* [Getting Started](general-information/getting-started.md)
+  * [Logging on](general-information/getting-started/logging-on.md)
 
 ## FAQs - Questions and Answers
 
