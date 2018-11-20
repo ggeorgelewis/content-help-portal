@@ -99,9 +99,9 @@
   * [How to fix “Permission Denied” error on Internal RabbitMQ Broker](general-information/troubleshooting-faq-live-section/how-to-fix-permission-denied-error-on-internal-rabbitmq-broker.md)
 * [Known issues](general-information/known-issues.md)
 * [Issue Reporting](general-information/issue-reporting.md)
-* Appendix A - Glossary
-* Appendix B - References
-* Appendix C - Swagger Definitions
+* [Appendix A - Glossary](general-information/appendix-a-glossary.md)
+* [Appendix B - References](general-information/appendix-b-references.md)
+* [Appendix C - Swagger Definitions](general-information/appendix-c-swagger-definitions.md)
 
 ## FAQs - Questions and Answers
 
