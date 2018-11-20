@@ -96,6 +96,7 @@
 * [Troubleshooting / FAQ \(live section\)](general-information/troubleshooting-faq-live-section.md)
   * [How to verify Kaleido Connectivity](general-information/troubleshooting-faq-live-section/how-to-verify-kaleido-connectivity.md)
   * [How to configure Keycloak for HTTP \(for QA region\)](general-information/troubleshooting-faq-live-section/how-to-configure-keycloak-for-http-for-qa-region.md)
+  * [How to fix “Permission Denied” error on Internal RabbitMQ Broker](general-information/troubleshooting-faq-live-section/how-to-fix-permission-denied-error-on-internal-rabbitmq-broker.md)
 
 ## FAQs - Questions and Answers
 
