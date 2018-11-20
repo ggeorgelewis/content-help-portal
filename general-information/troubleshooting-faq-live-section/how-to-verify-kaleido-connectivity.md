@@ -23,7 +23,8 @@ Step-by-step guide
  * Create a brand new one and keep the password safe (this time)
  * Correct your variables. It will work as well as the previous one
 3. Test connection:
-4. Use a script with the following:
+
+Use a script with the following:
 ```
 KALEIDO_HOST=e0sbix33oc-e0mzbcbnw6-rpc.eu-central-1.kaleido.io
 KALEIDO_USER=e0j5m5892p
@@ -37,13 +38,22 @@ else
   echo "Connection to node is successfull"
 fi
 ```
-5. If you have a proxy, add the curl proxy attributes
+4. If you have a proxy, add the curl proxy attributes
+
 -x, --proxy [PROTOCOL://]HOST[:PORT] Use proxy on given port
+
 --proxy-anyauth Pick "any" proxy authentication method (H)
+
 --proxy-basic Use Basic authentication on the proxy (H)
+
 --proxy-digest Use Digest authentication on the proxy (H)
+
 --proxy-negotiate Use HTTP Negotiate (SPNEGO) authentication on the proxy (H)
+
 --proxy-ntlm Use NTLM authentication on the proxy (H)
+
 --proxy-service-name NAME SPNEGO proxy service name
+
 -U, --proxy-user USER[:PASSWORD] Proxy user and password
+
 etc
