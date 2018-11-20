@@ -40,3 +40,22 @@ komgo platform uses Advanced Message Queueing Protocol \(AMQP 0.91\) messaging u
 *   komgo hosts a "Common Broker" that will contain "One Exchange" per member. Members can send and receive messages through this exchange
 *   Members will be issued a "Static ID" by komgo, that will be used for addressing the participants on the messages.
 *   Each Member will host an "Internal RabbitMQ Broker" that will be used by the microservices to interact asynchronously with each other. 
+
+#### MongoDB
+
+Every member node will maintain a local MongoDB, among other things, it will contain 
+
+
+
+*   cache of all blockchain transactions for that member, 
+*   cache of all reference data \(received from komgo rest API\), 
+*   cache of all documents (received from member companies via RabbitMQ messages)
+*   Draft data entered in UI
+*   User preferences
+*   Audit tracking of all user actions
+
+Members can choose to host MongoDB inside the docker container, or create a DB in their infrastructure, and provide the connection details to all the docker containers that access the DB
+
+#### Microservices API, Gateway
+
+Every member node will run a node.js based API Gateway and several microservices \(provided as docker images by komgo\). The microservices perform all business rules / workflows, and support the Front End Application. Access control for the services will be via Keycloak.
