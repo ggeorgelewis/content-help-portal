@@ -88,6 +88,7 @@
   * [Upgrades](general-information/setup/upgrades.md)
 * [Getting Started](general-information/getting-started.md)
   * [Logging on](general-information/getting-started/logging-on.md)
+  * [Platform Health Checklist](general-information/getting-started/platform-health-checklist.md)
 
 ## FAQs - Questions and Answers
 
