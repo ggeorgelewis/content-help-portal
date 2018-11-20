@@ -89,6 +89,7 @@
 * [Getting Started](general-information/getting-started.md)
   * [Logging on](general-information/getting-started/logging-on.md)
   * [Platform Health Checklist](general-information/getting-started/platform-health-checklist.md)
+  * [Setup Users](general-information/getting-started/setup-users.md)
 
 ## FAQs - Questions and Answers
 
