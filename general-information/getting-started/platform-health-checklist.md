@@ -30,3 +30,9 @@ Ensure the following containers are running at all times:
 | 15 | komgo-event-management | Business    | Event Management                                          |
 | 16 | <internal MQ host>     | Business    | Internal MQ Server                                        |
 | 17 | mongo                  | Database    | Mongo DB Server                                           |
+
+Command: 
+docker ps -a
+
+Expected Output:
+<TODO: include docker ps output here>
