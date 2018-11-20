@@ -31,3 +31,10 @@ audience:
     "harbourPassword":32bytes alpa-numeric password,
     "ensAddress":hex string
 }
+
+
+Attributes in "Black" are information assigned to the Member Company by komgo. They must be used to configure the env file
+
+Attributes in "Green" are sample entries, Member Companies are strongly encouraged to not use the provided password, and generate their own.
+
+All passwords are one-time use passwords, Member Companies must change them upon first login. <TODO: Is this true? Can they change their COMMON Broker password? Especially when their account is only setup after they sign up?>
