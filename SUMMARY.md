@@ -62,6 +62,7 @@
 * [Trade Finance Roles on komgo](trade-finance/trade-finance-roles-on-komgo.md)
   * [Trade Finance Manager \(Corporates\)](trade-finance/trade-finance-roles-on-komgo/trade-finance-manager-corporates.md)
   * [Relationship Manager \(Banks\)](trade-finance/trade-finance-roles-on-komgo/relationship-manager-banks.md)
+  * [Middle/Back Office Manager \(Banks\)](trade-finance/trade-finance-roles-on-komgo/middleback-office-manager-banks.md)
 
 ## FAQs - Questions and Answers
 
