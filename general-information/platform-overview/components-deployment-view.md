@@ -81,3 +81,11 @@ komgo services write logs in a logstash compatible format, and can be routed to 
 Kaleido supports AWS CloudWatch for Log streaming, and CloudWatch can be configured to export or stream logs to other end points.
 
 #### Topology - Fully Managed offering \(Hosting by komgo/Consensys\)
+
+![](/assets/technical_guide_16.png)
+
+#### Topology - Self Managed Solution \(aka Hybrid Solution\)
+
+![](/assets/technical_guide_17.png)
+
+
