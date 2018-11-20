@@ -70,6 +70,7 @@
   * [kapsule](general-information/komgo-key-terminology/kapsule.md)
   * [Kite](general-information/komgo-key-terminology/kite.md)
 * [Platform Overview](general-information/platform-overview.md)
+  * [Components \(Deployment View\)](general-information/platform-overview/components-deployment-view.md)
 
 ## FAQs - Questions and Answers
 
