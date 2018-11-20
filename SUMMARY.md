@@ -61,6 +61,7 @@
   * [LC Dashboard](trade-finance/main-dashboards/lc-dashboard.md)
 * [Trade Finance Roles on komgo](trade-finance/trade-finance-roles-on-komgo.md)
   * [Trade Finance Manager \(Corporates\)](trade-finance/trade-finance-roles-on-komgo/trade-finance-manager-corporates.md)
+  * [Relationship Manager \(Banks\)](trade-finance/trade-finance-roles-on-komgo/relationship-manager-banks.md)
 
 ## FAQs - Questions and Answers
 

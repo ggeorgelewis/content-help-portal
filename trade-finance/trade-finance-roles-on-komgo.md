@@ -5,7 +5,7 @@ infotype: Overview
 audience:
 ---
 
-# Main dashboards
+# Trade Finance Roles on komgo
 
 Trade Finance has the following roles:
 
