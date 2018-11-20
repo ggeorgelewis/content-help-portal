@@ -92,6 +92,9 @@
   * [Setup Users](general-information/getting-started/setup-users.md)
 * [Integrations](general-information/integrations.md)
   * [Integration with Corporate LDAP Server](general-information/integrations/integration-with-corporate-ldap-server.md)
+* [Administration & Monitoring](general-information/administration-and-monitoring.md)
+* [Troubleshooting / FAQ \(live section\)](general-information/troubleshooting-faq-live-section.md)
+  * [How to verify Kaleido Connectivity](general-information/troubleshooting-faq-live-section/how-to-verify-kaleido-connectivity.md)
 
 ## FAQs - Questions and Answers
 
