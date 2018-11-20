@@ -67,6 +67,7 @@
   * [View Trade dashboard](trade-finance/trade-finance-platform-actions/view-trade-dashboard.md)
   * [View Trade Details](trade-finance/trade-finance-platform-actions/view-trade-details.md)
   * [Apply for a Letter of Credit](trade-finance/trade-finance-platform-actions/apply-for-a-letter-of-credit.md)
+  * [LC Issuance ](trade-finance/trade-finance-platform-actions/lc-issuance.md)
 
 ## FAQs - Questions and Answers
 
