@@ -90,6 +90,8 @@
   * [Logging on](general-information/getting-started/logging-on.md)
   * [Platform Health Checklist](general-information/getting-started/platform-health-checklist.md)
   * [Setup Users](general-information/getting-started/setup-users.md)
+* [Integrations](general-information/integrations.md)
+  * [Integration with Corporate LDAP Server](general-information/integrations/integration-with-corporate-ldap-server.md)
 
 ## FAQs - Questions and Answers
 
