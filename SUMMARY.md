@@ -77,6 +77,7 @@
   * [Hosting Environment - HW Requirements](general-information/pre-requisites/hosting-environment-hw-requirements.md)
 * [Technical On-boarding](general-information/technical-on-boarding.md)
   * [High level flow](general-information/technical-on-boarding/high-level-flow.md)
+  * [Flow Diagram](general-information/technical-on-boarding/flow-diagram.md)
 
 ## FAQs - Questions and Answers
 
