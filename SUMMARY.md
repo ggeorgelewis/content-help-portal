@@ -76,6 +76,7 @@
   * [Completion of Business On-boarding](general-information/pre-requisites/completion-of-business-on-boarding.md)
   * [Hosting Environment - HW Requirements](general-information/pre-requisites/hosting-environment-hw-requirements.md)
 * [Technical On-boarding](general-information/technical-on-boarding.md)
+  * [High level flow](general-information/technical-on-boarding/high-level-flow.md)
 
 ## FAQs - Questions and Answers
 
