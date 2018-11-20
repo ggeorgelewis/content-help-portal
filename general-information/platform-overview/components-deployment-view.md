@@ -19,3 +19,24 @@ The blockchain nodes are fully managed by Kaliedo \([https://kaleido.io](https:/
 *   For fully-managed members, komgo will create a separate Kaleido account on behalf of each member
 *    As part of onboarding process, komgo will send an invite to the newly created kaleido account to allow the account to create a quorum node and join the komgo blockchain network
 *   komgo will maintain a production network, and a QA network. Member companies will be able to join to both networks using different Kaleido Accounts \(it is strongly discouraged to use the same kaleido account to join both QA and PROD networks\)
+
+#### Keycloak Identity Management
+
+komgo Application uses Keycloak Identity Management server for Authentication and Access Control.
+
+
+
+*   Every member will run their own keycloak instance in docker containers \(hosted on-premise or on cloud, or fully managed by komgo\)
+*   Member company administrator will setup users, roles, and permissions. This keycloak instance can also be interfaced with Company's identity management server for single-sign on. 
+*   Keycloak uses PostGreSQL for persisting the IAM data. Companies can choose to host the PostGre DB on docker as well, or create a DB in their infrastructure, and provide the connection details to the keyclock instance
+*   komgo will run a keycloak instance that will be setup with service accounts for all members and partner platforms. These credentials will be used by the member companies to connect to various platform services
+
+#### RabbitMQ Message Broker
+
+komgo platform uses Advanced Message Queueing Protocol \(AMQP 0.91\) messaging using Rabbit MQ for communication between member nodes and partner platforms (between Bank and Corporate, Bank to Bank, Corporate on komgo and Corporate on VAKT Partner platform, etc)
+
+
+
+*   komgo hosts a "Common Broker" that will contain "One Exchange" per member. Members can send and receive messages through this exchange
+*   Members will be issued a "Static ID" by komgo, that will be used for addressing the participants on the messages.
+*   Each Member will host an "Internal RabbitMQ Broker" that will be used by the microservices to interact asynchronously with each other. 
