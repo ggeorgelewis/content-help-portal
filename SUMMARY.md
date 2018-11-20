@@ -95,6 +95,7 @@
 * [Administration & Monitoring](general-information/administration-and-monitoring.md)
 * [Troubleshooting / FAQ \(live section\)](general-information/troubleshooting-faq-live-section.md)
   * [How to verify Kaleido Connectivity](general-information/troubleshooting-faq-live-section/how-to-verify-kaleido-connectivity.md)
+  * [How to configure Keycloak for HTTP \(for QA region\)](general-information/troubleshooting-faq-live-section/how-to-configure-keycloak-for-http-for-qa-region.md)
 
 ## FAQs - Questions and Answers
 
