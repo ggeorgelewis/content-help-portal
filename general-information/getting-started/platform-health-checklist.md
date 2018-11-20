@@ -88,7 +88,21 @@ Expected Output:
 13:26:00,383 INFO [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 4.1.0.Final (WildFly Core 3.0.8.Final) started in 14464ms - Started 546 of 882 services (604 services are lazy, passive or on-demand)
 ```
 
-#### Check if keycloak server started
+#### Check if RabbitMQ Broker started
+Verify the docker logs for komgo-internal-mq container
+
+Ensure that the log states ```accepting AMQP connection```
+
+Command:
+Docker logs komgo-internal-mq
+
+Expected Output:
+```
+2018-09-20 13:26:18.911 [info] <0.581.0> accepting AMQP connection <0.581.0> (172.19.0.13:48154 -> 172.19.0.9:5672)
+2018-09-20 13:26:18.978 [info] <0.581.0> connection <0.581.0> (172.19.0.13:48154 -> 172.19.0.9:5672): user 'komgoInternalUser' authenticated and granted access to vhost '/'
+```
+
+
 
 
 
