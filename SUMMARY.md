@@ -71,6 +71,7 @@
   * [Kite](general-information/komgo-key-terminology/kite.md)
 * [Platform Overview](general-information/platform-overview.md)
   * [Components \(Deployment View\)](general-information/platform-overview/components-deployment-view.md)
+  * [Key Concepts](general-information/platform-overview/key-concepts.md)
 
 ## FAQs - Questions and Answers
 
