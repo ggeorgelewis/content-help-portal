@@ -35,7 +35,10 @@ Command:
 docker ps -a
 
 Expected Output:
+```
 <TODO: include docker ps output here>
+```
+
 
 #### Check if all containers are running
 
