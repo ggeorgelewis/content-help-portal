@@ -11,185 +11,22 @@ audience:
 
 Ensure the following containers are running at all times:
 
-<table>
-  <tr>
-   <td>#
-   </td>
-   <td>Name
-   </td>
-   <td>Type
-   </td>
-   <td>Purpose
-   </td>
-  </tr>
-  <tr>
-   <td>1
-   </td>
-   <td>komgo-client
-   </td>
-   <td>Front End
-   </td>
-   <td>UI Service
-   </td>
-  </tr>
-  <tr>
-   <td>2
-   </td>
-   <td>komgo-api-roles
-   </td>
-   <td>IAM
-   </td>
-   <td>Roles Management Service
-   </td>
-  </tr>
-  <tr>
-   <td>3
-   </td>
-   <td>komgo-api-auth
-   </td>
-   <td>IAM
-   </td>
-   <td>IAM Service
-   </td>
-  </tr>
-  <tr>
-   <td>4
-   </td>
-   <td>komgo-api-gateway
-   </td>
-   <td>Business
-   </td>
-   <td>API Gateway Service
-   </td>
-  </tr>
-  <tr>
-   <td>5
-   </td>
-   <td>komgo-api-notif
-   </td>
-   <td>Business
-   </td>
-   <td>Notifications Service
-   </td>
-  </tr>
-  <tr>
-   <td>6
-   </td>
-   <td>komgo-api-users
-   </td>
-   <td>IAM
-   </td>
-   <td>Users Management Service
-   </td>
-  </tr>
-  <tr>
-   <td>7
-   </td>
-   <td>komgo-api-signer
-   </td>
-   <td>Key Signing
-   </td>
-   <td>Ethereum, RSA Key Generation, Encryption, Signing Service
-   </td>
-  </tr>
-  <tr>
-   <td>8
-   </td>
-   <td>komgo-api-documents
-   </td>
-   <td>Business
-   </td>
-   <td>Documents Management (kite) Service
-   </td>
-  </tr>
-  <tr>
-   <td>9
-   </td>
-   <td>komgo-api-registry
-   </td>
-   <td>Business
-   </td>
-   <td>ENS Company Registry Management Service
-   </td>
-  </tr>
-  <tr>
-   <td>10
-   </td>
-   <td>komgo-api-coverage
-   </td>
-   <td>Business
-   </td>
-   <td>Manage Client Coverage
-   </td>
-  </tr>
-  <tr>
-   <td>11
-   </td>
-   <td>komgo-api-tradefinance
-   </td>
-   <td>Business
-   </td>
-   <td>Trade Finance Functions
-   </td>
-  </tr>
-  <tr>
-   <td>12
-   </td>
-   <td>komgo-api-trade-cargo
-   </td>
-   <td>Business
-   </td>
-   <td>Trade Cargo Information
-   </td>
-  </tr>
-  <tr>
-   <td>13
-   </td>
-   <td>komgo-keycloak
-   </td>
-   <td>IAM
-   </td>
-   <td>Keycloak IAM Server
-   </td>
-  </tr>
-  <tr>
-   <td>14
-   </td>
-   <td>komgo-keycloak-db
-   </td>
-   <td>Database
-   </td>
-   <td>Keycloak Database
-   </td>
-  </tr>
-  <tr>
-   <td>15
-   </td>
-   <td>komgo-event-management
-   </td>
-   <td>Business
-   </td>
-   <td>Event Management
-   </td>
-  </tr>
-  <tr>
-   <td>16
-   </td>
-   <td>&#60;internal MQ host&#62;
-   </td>
-   <td>Business
-   </td>
-   <td>Internal MQ Server
-   </td>
-  </tr>
-  <tr>
-   <td>17
-   </td>
-   <td>mongo
-   </td>
-   <td>Database
-   </td>
-   <td>Mongo DB Server
-   </td>
-  </tr>
-</table>
+| #  | Name                   | Type        | Purpose                                                   |
+|----|------------------------|-------------|-----------------------------------------------------------|
+| 1  | komgo-client           | Front End   | UI Service                                                |
+| 2  | komgo-api-roles        | IAM         | Roles Management Service                                  |
+| 3  | komgo-api-auth         | IAM         | IAM Service                                               |
+| 4  | komgo-api-gateway      | Business    | API Gateway Service                                       |
+| 5  | komgo-api-notif        | Business    | Notifications Service                                     |
+| 6  | komgo-api-users        | IAM         | Users Management Service                                  |
+| 7  | komgo-api-signer       | Key Signing | Ethereum, RSA Key Generation, Encryption, Signing Service |
+| 8  | komgo-api-documents    | Business    | Documents Management (kite) Service                       |
+| 9  | komgo-api-registry     | Business    | ENS Company Registry Management Service                   |
+| 10 | komgo-api-coverage     | Business    | Manage Client Coverage                                    |
+| 11 | komgo-api-tradefinance | Business    | Trade Finance Functions                                   |
+| 12 | komgo-api-trade-cargo  | Business    | Trade Cargo Information                                   |
+| 13 | komgo-keycloak         | IAM         | Keycloak IAM Server                                       |
+| 14 | komgo-keycloak-db      | Database    | Keycloak Database                                         |
+| 15 | komgo-event-management | Business    | Event Management                                          |
+| 16 | <internal MQ host>     | Business    | Internal MQ Server                                        |
+| 17 | mongo                  | Database    | Mongo DB Server                                           |
