@@ -84,6 +84,8 @@
 * [Setup](general-information/setup.md)
   * [Download](general-information/setup/download.md)
   * [Installation and Configuration](general-information/setup/installation-and-configuration.md)
+  * [Data Persistence and Management](general-information/setup/data-persistence-and-management.md)
+  * [Upgrades](general-information/setup/upgrades.md)
 
 ## FAQs - Questions and Answers
 

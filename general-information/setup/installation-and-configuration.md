@@ -12,18 +12,18 @@ Installation involves the following steps:
 
 
 *   Create a .env file \(copy from sample .env file provided\), and configure the following:
-    *   Kaleido host, userid, password
-    *   Keycloak auth url \(replace localhost with your domain name\)
-    *   Access control allow origin url \(replace localhost with your domain name\)
-    *   Common Broker userid, password
-    *   HTTP / HTTPS Proxy address \(if your organization uses proxy servers\)
+   *   Kaleido host, userid, password
+   *   Keycloak auth url \(replace localhost with your domain name\)
+   *   Access control allow origin url \(replace localhost with your domain name\)
+   *   Common Broker userid, password
+   *   HTTP / HTTPS Proxy address \(if your organization uses proxy servers\)
 *   Login to Harbor registry
 *   Start the docker images by running "docker-compose up"
 *   Configure the components
-    *   Setup API roles
-    *   Setup reference data for Documents
-    *   Configure Keycloak
-    *   Configure Rabbit MQ Local Broker
+   *   Setup API roles
+   *   Setup reference data for Documents
+   *   Configure Keycloak
+   *   Configure Rabbit MQ Local Broker
 *   Restart all microservices
 
 ![](/assets/technical_guide_21.png)
