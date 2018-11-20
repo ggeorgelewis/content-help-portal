@@ -88,3 +88,8 @@ Expected Output:
 13:26:00,383 INFO [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 4.1.0.Final (WildFly Core 3.0.8.Final) started in 14464ms - Started 546 of 882 services (604 services are lazy, passive or on-demand)
 ```
 
+#### Check if keycloak server started
+
+
+
+
