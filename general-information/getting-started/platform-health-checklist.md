@@ -102,7 +102,19 @@ Expected Output:
 2018-09-20 13:26:18.978 [info] <0.581.0> connection <0.581.0> (172.19.0.13:48154 -> 172.19.0.9:5672): user 'komgoInternalUser' authenticated and granted access to vhost '/'
 ```
 
+#### Check if PostGre DB (For Keycloak) started
 
+Verify the docker logs for komgo-keycloak-db container
+
+Ensure that the log states ```database system is ready to accept connections```
+
+Command:
+Docker logs komgo-keycloak-db
+
+Expected Output:
+```
+2018-09-20 13:25:26.246 UTC [1] LOG: database system is ready to accept connections
+```
 
 
 
