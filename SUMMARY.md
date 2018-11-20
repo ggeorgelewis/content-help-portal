@@ -68,6 +68,8 @@
 * [komgo Production Support Systems](general-information/komgo-production-support-systems.md)
 * [komgo Key Terminology](general-information/komgo-key-terminology.md)
   * [kapsule](general-information/komgo-key-terminology/kapsule.md)
+  * [Kite](general-information/komgo-key-terminology/kite.md)
+* [Platform Overview](general-information/platform-overview.md)
 
 ## FAQs - Questions and Answers
 
