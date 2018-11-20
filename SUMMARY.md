@@ -83,6 +83,7 @@
   * [Harbor Account Setup](general-information/technical-on-boarding/harbor-account-setup.md)
 * [Setup](general-information/setup.md)
   * [Download](general-information/setup/download.md)
+  * [Installation and Configuration](general-information/setup/installation-and-configuration.md)
 
 ## FAQs - Questions and Answers
 
