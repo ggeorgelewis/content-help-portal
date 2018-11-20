@@ -20,3 +20,4 @@ The following minimum hardware/software is required per each environment \(Produ
 *   One server equivalent to AWS C4-X2Large or larger
     *   8 CPU, 16 GB RAM, 1 GBPS Network Bandwidth
 *   Storage equivalent to 100 GB of EBS AWS Storage
+<TODO: provide min OS level supported>
