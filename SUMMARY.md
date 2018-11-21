@@ -1,6 +1,6 @@
 # Summary
 
-## komgo
+## komgo User Documentation
 
 * [Platform Overview](README.md)
 
