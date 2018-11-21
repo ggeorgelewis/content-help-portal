@@ -2,7 +2,7 @@
 
 ## komgo User Documentation
 
-* [Platform Overview](README.md)
+* [komgo Platform Overview](README.md)
 
 ## User Administration
 
