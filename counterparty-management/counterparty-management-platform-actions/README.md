@@ -7,7 +7,7 @@ audience: null
 
 # Counterparty Management Platform Actions
 
-The following actions are available on the Counterparty Management section:
+The following actions are available in the Counterparty Management section:
 
 * View list of authorized counterparties
 * Add a new counterparty
