@@ -6,9 +6,7 @@ infotype: task
 audience: KYC Analyst, Finance Manager
 
 ---
-# Document Review
-
-#### Download and Save Documents
+# Download and Save Documents
 
 Requesting users who have access to documents can download and save them to their company&#39;s database.
 
