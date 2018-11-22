@@ -21,11 +21,11 @@ When adding a new role or editing an existing role custom role, Administrators a
 |  | Manage Users | Management of registered users on the platform. User can view assigned role\(s\) to users \(L1\), assign and re-assign them \(L2\). | L1: Read |
 |  |  |  | L2: Crud |
 | **Counterparty Management** |  |  |  |
-|  | Manage Coverage | Management of counterparties in an entity's counterparty list. A user can view the list of authorized counterparties\(L1\). A user can submit or review new counterparty requests \(L2\). | L1: Read |
+|  | Manage Coverage | Management of counterparties in an entity&#8217;s counterparty list. A user can view the list of authorized counterparties\(L1\). A user can submit or review new counterparty requests \(L2\). | L1: Read |
 |  |  |  | L2: Crud |
 | **KYC** |  |  |  |
 |  | Manage Doc Request Template | Management of document request templates. User can view predefined templates or create customized templates by selecting doc categories and types from a predefined list. |  |
-|  | Manage Document | Management of documents. User can view their entities' documents in the KYC document library \(L1\) . User can register and share their documents in the document library \(L2\). | L1: Read |
+|  | Manage Document | Management of documents. User can view their entities&#8217; documents in the KYC document library \(L1\) . User can register and share their documents in the document library \(L2\). | L1: Read |
 |  |  |  | L2: Crud |
 |  | Request Document | Requesting documents from a counterparty in the context of performing KYC.  User can view request to counterparties \(L1\) and perform action of requesting documents \(L2\). | L1: Read |
 |  |  |  | L2: Crud |
