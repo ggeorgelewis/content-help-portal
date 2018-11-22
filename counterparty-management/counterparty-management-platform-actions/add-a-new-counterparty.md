@@ -5,7 +5,6 @@ infotype: task
 audience: KYC Analyst, Finance Manager, Trade Finance Operator
 
 ---
-
 # Add a new counterparty
 
 A new counterparty can be added to a user's list of authorised parties to interact with on the komgo platform.
