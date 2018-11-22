@@ -1,5 +1,4 @@
 ---
-
 product: Counterparty Management
 capability: actions
 infotype: task
