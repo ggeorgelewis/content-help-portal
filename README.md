@@ -1,11 +1,11 @@
 ---
 product: komgo Platform
-capability: null
+capability: 
 infotype: Overview
-audience: null
+audience: 
 ---
 
-# komgo Platform Overview 222
+# komgo Platform Overview
 
 komgo is an Open Financing Platform designed to efficiently and securely connect finance providers and commodity traders. It can be easily integrated with smart contract and other platforms to provide a complete network-based trading platform that empowers the entire commodity ecosystem.
 
