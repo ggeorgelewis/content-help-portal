@@ -29,3 +29,6 @@ To delete an existing role, click the _**ellipsis**_ beside the custom role and 
 To modify an existing role, click the _**ellipsis**_ \(e.g. Trade Finance Manager\) and click the _**Edit**_ to modify the role. On the edit screen, the user can view the role title and edit the role description, the actions and associated permissions and assigned users. If the user has modified the role they can click _**Update Role**_ or click _**Cancel**_ to return the role to its unedited state.
 
 For predefined system roles provided by the komgo platform the role editing feature is limited to modifying the assignment of users to the given role.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjA3NDg3Njc4OF19
+-->
