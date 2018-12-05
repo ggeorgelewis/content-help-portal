@@ -9,7 +9,7 @@ audience:
 
 komgo is an Open Financing Platform designed to efficiently and securely connect finance providers and commodity traders. It can be easily integrated with smart contract and other platforms to provide a complete network-based trading platform that empowers the entire commodity ecosystem.
 
-The platform achieves this through the the following key capabilities :
+The platform achieves this through the the following key capabilities:
 
 * **User Administration**  
   User administration allows organisations to manage platform users to ensure people are only able to perform the actions they are authorised to perform.
@@ -36,12 +36,5 @@ The platform achieves this through the the following key capabilities :
 
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJ0enliQ1lUYjRMNXNuUERJIjp7In
-RleHQiOiJVc2VyIEFkbWluaXN0cmF0aW9uKioiLCJzdGFydCI6
-NDcxLCJlbmQiOjQ5Mn19LCJjb21tZW50cyI6eyJZSVY5Q05yMV
-lLTEJXMjgxIjp7ImRpc2N1c3Npb25JZCI6InR6eWJDWVRiNEw1
-c25QREkiLCJzdWIiOiJnaDo2NjM5MDEwIiwidGV4dCI6IldpbG
-wgdGhpcyBidWlsZCBpZiBJIHN0YXJ0IGEgZGlzY3Vzc2lvbiBo
-ZXJlIiwiY3JlYXRlZCI6MTU0NDAwOTk1MTc2MX19LCJoaXN0b3
-J5IjpbLTgwNTc0NDExMl19
+eyJoaXN0b3J5IjpbLTQwMjY5NzgxMiwtODA1NzQ0MTEyXX0=
 -->
