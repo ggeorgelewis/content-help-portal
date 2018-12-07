@@ -6,7 +6,7 @@ infotype: task
 audience: KYC Analyst, Finance Manager
 
 ---
-# Document Request with the template \(Load Template Button\)
+# Document Request \(Load Template Button\)
 
 Users can request documents by using a pre-existing _**template**_ from a list of templates.
 
