@@ -5,7 +5,7 @@ infotype: Overview
 audience:
 ---
 
-# Main dashboards
+# Main screens
 
 Two main dashboards allow users to monitor their Trade Finance tasks on the platform:
 

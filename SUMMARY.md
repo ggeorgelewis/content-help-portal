@@ -60,6 +60,15 @@
   * [LC Dashboard](trade-finance/main-dashboards/lc-dashboard.md)
 * [Trade Finance Roles on komgo](trade-finance/trade-finance-roles-on-komgo.md)
   * [Trade Finance Manager \(Corporates\)](trade-finance/trade-finance-roles-on-komgo/trade-finance-manager-corporates.md)
+  * [Relationship Manager \(Banks\)](trade-finance/trade-finance-roles-on-komgo/relationship-manager-banks.md)
+  * [Middle/Back Office Manager \(Banks\)](trade-finance/trade-finance-roles-on-komgo/middleback-office-manager-banks.md)
+* [Trade Finance Platform Actions](trade-finance/trade-finance-platform-actions.md)
+  * [View Trade dashboard](trade-finance/trade-finance-platform-actions/view-trade-dashboard.md)
+  * [View Trade Details](trade-finance/trade-finance-platform-actions/view-trade-details.md)
+  * [Apply for a Letter of Credit](trade-finance/trade-finance-platform-actions/apply-for-a-letter-of-credit.md)
+  * [LC Issuance](trade-finance/trade-finance-platform-actions/lc-issuance.md)
+  * [LC Advised](trade-finance/trade-finance-platform-actions/lc-advised.md)
+  * [LC Acknowledge](trade-finance/trade-finance-platform-actions/lc-acknowledge.md)
 
 ## Technical Guide
 
