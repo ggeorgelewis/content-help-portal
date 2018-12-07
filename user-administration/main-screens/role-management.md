@@ -36,15 +36,15 @@ When adding a new role or editing an existing custom role, Administrators are ab
 | **Trade Finance** |  |  |  |
 |  | Manage Trades | Management of trades and ability to view trade dashboard. User is able to view trades and associated trade recap data \(L1\). | L1: Read |
 |  |  |  | L2: Crud |
-|  | Manage LC Request | Request a bank to finance a trade through the issuance of a letter of credit by filling out and submit the LC application. Either a VAKT user or a direct komgo user can fill out and submit the LC application. |  |
+|  | Manage LC Request | Request a bank to finance a trade through the issuance of a letter of credit by filling out and submit the LC application. |  |
 |  | Review LC Application | Revision of an LC application received by the Applicant. User can view the LC application \(L1\) and choose to refuse the application or issue an LC \(L2\). | L1: Read |
 |  |  |  | L2: Read/Write |
-|  | Review Issued LC | Review of the LC issued by the Issuing Bank. User can view issued LC \(L1\) and accept issued LC or able to refuse the issued LC with comment \(L2\). | L1: Read |
+|  | Review Issued LC | Review of the LC issued by the Issuing Bank. User \(Beneficiary\) can view issued LC \(L1\) and accept issued LC or able to refuse the issued LC with comment \(L2\). | L1: Read |
 |  |  |  | L2: Read/Write |
-|  | Manage Collection | Management of trade document collection. Beneficiary is able to upload trade documents related to a particular trade for which an LC has been issued. |  |
-|  | Manage Presentation | Management of trade document presentation. User is able to share collected trade documents for presentation. |  |
-|  | Review Presentation | Review of trade documents presented in the context of a particular trade. User is able to view presented documents shared by the Beneficiary \(L1\)  and accept or reject \(w/ comment\) presented documents \(L2\). | L1: Read |
+|  | Manage Collection\* | Gathering of trade documents. Beneficiary is able to upload documents related to a particular trade for which an LC has been issued. |  |
+|  | Manage Presentation\* |Management of trade documents to be presented under the LC. User \(Beneficiary\) is able to share collected trade documents for presentation. |  |
+|  | Review Presentation\* | Review of trade documents presented under the LC. User is able to view presented documents shared by the Beneficiary \(L1\) and accept or reject \(with a comment\) presented documents \(L2\). | L1: Read |
 |  |  |  | L2: Read/Write |
 
-
+\* Functionalities currently in development to be made available following initial UAT pass
 

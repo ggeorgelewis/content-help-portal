@@ -18,7 +18,7 @@ The user clicks _**User**_ on the left hand side of the screen in the menu bar. 
 
 #### _Creating new users_
 
-The Administrator clicks _**add user**_ to transition to a screen where he will enter user specific information into a range of fields. The system requires the _**Username, First Name**_ and _**Last Name**_ fields to be able to create a new user and then the user can click _**save**_. This will bring you to the management page for your new user.
+The Administrator clicks _**add user**_ to transition to a screen where he will enter user specific information into a range of fields. The system requires the _**Username, First Name**_ and _**Last Name**_ fields to be able to create a new user and then the user can click _**save**_. The Administrator can choose to request email verification from created user by selecting _**Yes**_ or _**No**_ on the _**Email Verified field**_. After clicking _**Save**_ this will bring you to the management page for your new user. The Administrator clicks on _**Credentials**_ tab to enter a password for the new user and clicks the _**Reset Password**_ icon to confirm. By default the new user will be prompted to change their password to activate their account upon login on the komgo platform. To disable custom passwords the Administrator can deselect this default setting by selecting _**Off**_ in the _**Temporary**_ field.
 
 #### _Delete user_
 
