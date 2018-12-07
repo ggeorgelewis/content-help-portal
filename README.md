@@ -23,8 +23,8 @@ The platform achieves this through the the following key capabilities:
 
   Counterparty management is critical to ensuring that sensitive information is only sent to organisation \(counterparties\) with whom your organisation has agreed to share information.
 
-* **Know Your Customer \(KYC\)**  
-  KYC processes ensures that an organisation can verify the identity of any client with whom the organisation interacts before the business relationship starts.
+* **Know Your Counterparty \(KYC\)**  
+  KYC processes ensures that an organisation can verify the identity of any counterparty with whom the organisation interacts, before the business relationship starts.
 
   komgo simplifies this process for all parties involved by providing a secure document management system the enables parties to seamlessly and securely share the documents required for KYC on a peer-to-peer basis.
 
