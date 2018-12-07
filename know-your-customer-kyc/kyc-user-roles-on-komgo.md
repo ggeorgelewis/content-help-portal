@@ -6,7 +6,7 @@ audience:
 
 ---
 
-# KYC user roles on komgo
+# KYC roles on komgo
 
 KYC has the following roles:
 

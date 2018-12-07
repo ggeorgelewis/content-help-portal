@@ -36,7 +36,6 @@
 * [KYC Screens](know-your-customer-kyc/main-screens/README.md)
   * [Counterparty Docs Screen](know-your-customer-kyc/main-screens/counterparty-docs-screen.md)
   * [Document Library](know-your-customer-kyc/main-screens/document-library.md)
-  * [Template Manager Screen](know-your-customer-kyc/main-screens/template-manager-screen.md)
 * [KYC roles on komgo](know-your-customer-kyc/kyc-user-roles-on-komgo.md)
   * [KYC Manager & Analyst \(Bank\)](know-your-customer-kyc/kyc-user-roles-on-komgo/kyc-manager-and-analyst-bank.md)
   * [Compliance Analyst & Manager \(Corporates\)](know-your-customer-kyc/kyc-user-roles-on-komgo/compliance-analyst-and-manager-corporates.md)

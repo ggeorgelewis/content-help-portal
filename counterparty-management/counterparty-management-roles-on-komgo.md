@@ -9,6 +9,5 @@ audience:
 
 The role within Counterparty Management:
 
-* Relationship Manager \(Bank\)
-
-![](/assets/user_manual_4.png)
+* Relationship Manager \(Bank\) - see description of role in s5
+* Trade Finance Officer \(Corporate\) - see description of role in s5
