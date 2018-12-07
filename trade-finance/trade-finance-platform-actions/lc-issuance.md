@@ -9,7 +9,7 @@ audience:
 
 The Issuing Bankreceives access to the read-only LC-application.
 
-To complete the action, the user at the Issuing Bank must click _**Accept LC**_, upload an LC document and add an _**Issuing Bank LC reference**_. The LC document can be a _**MT700 message**_ or for non-swift LCs (for example a direct LC to Beneficiary) a Bank headed LC document. After this is done, a notification of the uploaded and shared LCdocument is sent to the following  shared parties:
+To complete the action, the user at the Issuing Bank must click _**Accept LC**_, upload an LC document and add an _**Issuing Bank LC reference**_. The LC document can be a _**MT700 message**_ (generated outside of the komgo platform) or for non-swift LCs (for example a direct LC to Beneficiary) a Bank headed LC document. After this is done, a notification of the uploaded and shared LC document is sent to the following  shared parties (please note users will be able to view the saved document via the new ‘List of Documents’ screen):
 
 **For non-direct LCs (has Advising Bank on participants screen):**
 
