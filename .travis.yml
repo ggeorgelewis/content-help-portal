@@ -1,38 +1,21 @@
 language: minimal
 before_install:
   - sudo apt-get update -qq
-  - wget https://github.com/jgm/pandoc/releases/download/2.4/pandoc-2.4-1-amd64.deb
-  - sudo dpkg -i pandoc-2.4-1-amd64.deb
+  - sudo apt-get install realpath python python-pip -y
+  - sudo apt-get install --only-upgrade docker-ce -y
+  - sudo apt-get install tree -y
 after_success:
-  # clone the jekyll template and create a new "Build" branch
-  - git clone https://${GITHUB_TOKEN}@github.com/chpmnrssll/help-portal.git
-  - cd help-portal
-  - git checkout -b "Build"
-  - git pull origin master
-
-  # copy/overwrite all the GitBook content to this repo
-  - shopt -s extglob
-  - cp -rf ../!(help-portal) .
-
-  #  change link url for README.md to index.md in SUMMARY.md
-  - sed -i -e 's/(README.md)/(index.md)/g' SUMMARY.md
-
-  # find/replace .md file extensions to .html on all links
-  - find . -type f -name "*.md" -print0 | xargs -0 sed -i -e 's/.md/.html/g'
-
-  # find/add {{ site.baseurl}}/assets to all images in markdown
-  - find . -type f -name "*.md" -print0 | xargs -0 sed -i -e 's/\/assets\//{{ site.baseurl }}\/assets\//g'
-
-  # add front-matter permalink: /index.html to README.md
-  - mv README.md index.md
-
-  # pre-convert SUMMARY.md to static HTML, save in _includes/ folder
-  - pandoc --from gfm --to html SUMMARY.md --output _includes/SUMMARY.html
-
-  #  add {{ site.baseurl }} to all links in SUMMARY.html
-  - sed -i -e 's/href="/href="{{ site.baseurl }}\//g' _includes/SUMMARY.html
-
-  # push to "Build" branch to trigger new Jekyll build
-  - git add .
-  - git commit -m "GitBook content updated"
-  - git push -u -f https://${GITHUB_TOKEN}@github.com/chpmnrssll/help-portal.git Build
+  - tree 
+  - mkdir .build/md2html2/demo-content
+  - cp -r * .build/md2html2/demo-content/
+  - cd .build/md2html2/
+  - docker build -t build-help-site  .  
+  - docker run -dit --name build-help-site-live build-help-site        
+  - cd ../apache2
+  - docker cp build-help-site-live:/build/_site help-portal/
+  - docker stop build-help-site-live
+  - docker build -t help-site .
+  - docker images -a
+  - echo "$ARTIFACT_PASSWORD" | docker login -u "$ARTIFACT_USERNAME" --password-stdin
+  - docker tag help-site $ARTIFACT_USERNAME/help-site
+  - docker push $ARTIFACT_USERNAME/help-site
