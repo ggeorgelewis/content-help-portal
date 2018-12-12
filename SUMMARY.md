@@ -111,3 +111,6 @@
 * [Appendix C - Swagger Definitions](general-information/appendix-c-swagger-definitions.md)
 
 ## FAQs - Questions and Answers
+
+* [How to do this](faqs-questions-and-answers/how-to-do-this.md)
+
