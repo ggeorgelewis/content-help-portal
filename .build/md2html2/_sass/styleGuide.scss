@@ -1,0 +1,29 @@
+.styleGuide {
+  display: block;
+
+  .color-section {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem 2rem;
+
+    .color-swatch {
+      display: flex;
+      flex-direction: column;
+      font-size: .65rem;
+      height: 120px;
+      justify-content: center;
+      margin: .25rem;
+      text-align: center;
+      text-shadow: 0 0 1px #888;
+      width: 100px;
+    }
+  }
+
+  .button-section, .link-section {
+    margin: 8px;
+
+    p {
+      margin-bottom: .25rem;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+table {
+  border-collapse: collapse;
+  color: $color-grey-7;
+  font-family: LotaGrotesque-SemiBold;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  width: 100%;
+
+  thead {
+    th {
+      color: $color-grey-6;
+      font-family: LotaGrotesque-SemiBold;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 21px;
+      text-align: left;
+      text-transform: uppercase;
+    }
+  }
+
+  td {
+    border-top: 1px solid $color-grey-3;
+    padding: 15px 0;
+
+    &:last-child {
+      border-bottom: 1px solid $color-grey-3;
+    }
+  }
+}

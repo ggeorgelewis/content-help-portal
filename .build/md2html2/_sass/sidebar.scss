@@ -1,0 +1,46 @@
+.sidebar {
+  background-color: $color-grey-1;
+  float: left;
+  height: 100%;
+  width: 470px;
+
+  .logo {
+    padding-left: 30px;
+    padding-top: 36px;
+  }
+
+  .dashboard {
+    color: $color-grey-7;
+    font-family: LotaGrotesque-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    min-height: 100%;
+    margin: 25px 30px 0;
+
+    h1 {
+      display: none;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding-inline-start: 0;
+
+      li {
+        ul {
+          margin-left: 1rem;
+        }
+      }
+      a {
+        @extend .text-link_subdued;
+        // color: $color-grey-7;
+        // text-decoration: none;
+      }
+    }
+
+  }
+}

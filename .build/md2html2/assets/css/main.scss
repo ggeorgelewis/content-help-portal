@@ -1,0 +1,44 @@
+---
+---
+@import "colors";
+@import "buttons";
+@import "links";
+@import "sidebar";
+@import "tables";
+@import "tasks";
+@import "footer";
+@import "request-template";
+@import "styleGuide";
+
+body, html {
+  font-family: LotaGrotesque-Regular;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas: "nav content";
+  grid-template-columns: 470px auto;
+  height: 100%;
+}
+
+.content {
+  padding: 0 40px;
+
+  h1 {
+    height: 30px;
+    color: $color-grey-7;
+    font-family: LotaGrotesque-Regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 0 40px;
+    padding-top: 38px;
+  }
+}
+
+.line {
+  border: 1px solid $color-grey-3;
+  height: 0;
+}

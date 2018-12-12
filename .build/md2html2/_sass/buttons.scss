@@ -1,0 +1,112 @@
+.button {
+  min-width: 71px;
+  min-height: 32px;
+  border-radius: 3px;
+}
+
+.button-group {
+  button {
+    float: left; // Float the buttons side by side/
+
+    &:first-child {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    &:not(:first-child):not(:last-child) {
+      border-radius: 0;
+    }
+    &:not(:last-child) {
+      border-right: none; // Prevent double borders
+    }
+    &:last-child {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+  // Clear floats (clearfix hack)
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+.button-standard {
+  @extend .button;
+
+  background-color: #fff;
+  background-image: linear-gradient(180deg, #fff 0%, $color-grey-1 100%);
+  border: 1px solid $color-grey-4;
+  color: $color-grey-7;
+  font-family: LotaGrotesque-Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+
+  &:hover {
+    background-color: $color-grey-1;
+    background-image: linear-gradient(180deg, $color-grey-1 0%, rgba(232, 238, 243, 0.5) 100%);
+    border: 1px solid $color-grey-4;
+  }
+  &:active {
+    background-color: $color-grey-2;
+    border: 1px solid $color-grey-4;
+    box-shadow: inset 0 2px 3px rgba(192, 207, 222, 0.3), inset 0 2px 1px rgba(192, 207, 222, 0.3);
+  }
+  &:disabled {
+    background-color: $color-grey-2;
+    border: 1px solid $color-grey-4;
+    color: $color-grey-5
+  }
+}
+
+.button-primary {
+  @extend .button;
+
+  border: 1px solid $color-primary-2;
+  background-color: $color-primary-1;
+  background-image: linear-gradient(180deg, rgba(87, 0, 181, 0) 0%, rgba(62, 0, 130, 0.5) 100%);
+  color: #fff;
+  font-family: LotaGrotesque-Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+
+  &:hover {
+    border-radius: 3px;
+    border: 1px solid $color-primary-3;
+    background-color: $color-primary-2
+  }
+  &:active {
+    border: 1px solid $color-primary-3;
+    background-color: $color-primary-3;
+  }
+  &:disabled {
+
+  }
+}
+
+.button-secondary {
+  @extend .button;
+
+  border: 1px solid $color-secondary-2;
+  background-color: $color-secondary-1;
+  background-image: linear-gradient(180deg, rgba(212, 92, 100, 0) 0%, rgba(200, 53, 63, 0.5) 100%);
+  color: #fff;
+  font-family: LotaGrotesque-Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+
+  &:hover {
+    border: 1px solid $color-secondary-3;
+    background-color: $color-secondary-2;
+  }
+  &:active {
+    border: 1px solid $color-secondary-4;
+    background-color: $color-secondary-3;
+  }
+  &:disabled {
+
+  }
+}

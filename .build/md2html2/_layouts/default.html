@@ -1,0 +1,51 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+<head>
+  <!--othermetastart-->
+  {% capture filename %}{{ page.name | remove: ".md" }}{% endcapture %}
+  <meta name="document-name" content="{{ filename }}" />
+  {% if page.infotype %}
+  <meta name="infotype" content="{{ page.infotype }}" />
+  {% endif %}
+  {% if page.capability %}
+  <meta name="capabilities" content="{{ page.capability }}" />
+  {% endif %}
+  {% if page.audience %}
+  <meta name="audience" content="{{ page.audience }}" />
+  {% endif %}
+  {% if page.product %}
+  <meta name="product" content="{{ page.product }}" />
+  {% endif %}
+  {% if page.prevtopic %}
+  <meta name="prevtopic" content="komgo/document-request-with-the-template-load-template-button.html" />
+  {% endif %}
+  {% if page.nexttopic %}
+  <meta name="nexttopic" content="komgo/document-request.html" />
+  {% endif %}
+  <!--othermetaend-->
+
+  <title>
+    {% unless page.title %}
+    {{ page.title }}
+    {% else %}
+    {{ filename }}
+    {% endunless %}
+  </title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/MyFontsWebfontsKit.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    {% include sidebar.html %}
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+  {% include footer.html %}
+</body>
+
+</html>

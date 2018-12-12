@@ -1,0 +1,48 @@
+---
+layout: none
+---
+/**
+ * @license
+ * MyFonts Webfont Build ID 3673680, 2018-11-15T09:08:20-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: LotaGrotesque-RegularIt by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/regular-italic/
+ *
+ * Webfont: LotaGrotesque-Regular by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/regular/
+ *
+ * Webfont: LotaGrotesque-SemiBold by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/semi-bold/
+ *
+ * Webfont: LotaGrotesque-SemiBoldIt by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/semi-bold-italic/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3673680
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright &#x00A9; 2017 by Daniel Hernandez. All rights reserved.
+ *
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/380e50");
+
+
+@font-face {font-family: 'LotaGrotesque-RegularIt';src: url('{{ site.baseurl }}/assets/webfonts/380E50_0_0.eot');src: url('{{ site.baseurl }}/assets/webfonts/380E50_0_0.eot?#iefix') format('embedded-opentype'),url('{{ site.baseurl }}/assets/webfonts/380E50_0_0.woff2') format('woff2'),url('{{ site.baseurl }}/assets/webfonts/380E50_0_0.woff') format('woff'),url('{{ site.baseurl }}/assets/webfonts/380E50_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'LotaGrotesque-Regular';src: url('{{ site.baseurl }}/assets/webfonts/380E50_1_0.eot');src: url('{{ site.baseurl }}/assets/webfonts/380E50_1_0.eot?#iefix') format('embedded-opentype'),url('{{ site.baseurl }}/assets/webfonts/380E50_1_0.woff2') format('woff2'),url('{{ site.baseurl }}/assets/webfonts/380E50_1_0.woff') format('woff'),url('{{ site.baseurl }}/assets/webfonts/380E50_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'LotaGrotesque-SemiBold';src: url('{{ site.baseurl }}/assets/webfonts/380E50_2_0.eot');src: url('{{ site.baseurl }}/assets/webfonts/380E50_2_0.eot?#iefix') format('embedded-opentype'),url('{{ site.baseurl }}/assets/webfonts/380E50_2_0.woff2') format('woff2'),url('{{ site.baseurl }}/assets/webfonts/380E50_2_0.woff') format('woff'),url('{{ site.baseurl }}/assets/webfonts/380E50_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'LotaGrotesque-SemiBoldIt';src: url('{{ site.baseurl }}/assets/webfonts/380E50_3_0.eot');src: url('{{ site.baseurl }}/assets/webfonts/380E50_3_0.eot?#iefix') format('embedded-opentype'),url('{{ site.baseurl }}/assets/webfonts/380E50_3_0.woff2') format('woff2'),url('{{ site.baseurl }}/assets/webfonts/380E50_3_0.woff') format('woff'),url('{{ site.baseurl }}/assets/webfonts/380E50_3_0.ttf') format('truetype');}

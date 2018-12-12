@@ -1,0 +1,91 @@
+.request-template-heading {
+  height: 30px;
+  color: $color-grey-7;
+  font-family: LotaGrotesque-Regular;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 0 40px;
+  padding-top: 38px;
+}
+
+.request-template-tabs {
+  height: 29px;
+  margin-top: 27px;
+  width: 960px;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline;
+      margin-right: 24px;
+      font-family: LotaGrotesque-SemiBold;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 21px;
+      .request-template-count {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.request-template-table {
+  border-collapse: collapse;
+  color: $color-grey-7;
+  font-family: LotaGrotesque-SemiBold;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  width: 100%;
+
+  thead {
+    th {
+      color: $color-grey-6;
+      font-family: LotaGrotesque-SemiBold;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 21px;
+      text-align: left;
+      text-transform: uppercase;
+    }
+  }
+  .request-template-name {
+    font-weight: 600;
+  }
+  .request-template-author {
+  }
+  .request-template-date {
+    color: $color-grey-6;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .request-template-assigned {
+    line-height: 21px;
+  }
+  .request-template-deadline {
+    color: $color-grey-6;
+  }
+  .request-template-status {
+    border-radius: 11px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .request-template-more {
+    margin-left: 1rem;
+  }
+
+  td {
+    border-top: 1px solid $color-grey-3;
+    padding: 15px 0;
+
+    &:last-child {
+      border-bottom: 1px solid $color-grey-3;
+    }
+  }
+}
