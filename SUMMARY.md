@@ -112,5 +112,6 @@
 
 ## FAQs - Questions and Answers
 
-* [How to update](faqs-questions-and-answers/how-to-update.md)
-
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE5NzgwNTg4MTBdfQ==
+-->
