@@ -5,9 +5,12 @@ infotype: Overview
 audience: null
 ---
 
+
 # Counterparty Management Platform Actions
 
+
 The following actions are available in the Counterparty Management section:
+
 
 * View list of authorized counterparties
 * Add a new counterparty
@@ -20,3 +23,13 @@ The following actions are available in the Counterparty Management section:
 
 
 
+
+
+
+
+
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTU4NDYwMDc1OV19
+-->
