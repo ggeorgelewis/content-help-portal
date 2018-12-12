@@ -13,7 +13,4 @@ The following actions are available on the Trade Finance area:
 * Apply for a Letter of Credit
 * LC Issuance
 * LC Advised
-* LC Acknowledge.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2MjMzMzQ4XX0=
--->
+* LC Acknowledge
