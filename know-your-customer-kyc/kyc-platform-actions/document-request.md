@@ -1,11 +1,4 @@
----
 
-product: Know Your Customer
-capability: actions
-infotype: task
-audience: Trade Finance Operator
-
----
 
 # Document Request
 

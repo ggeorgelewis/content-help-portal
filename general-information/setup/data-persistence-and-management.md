@@ -1,9 +1,4 @@
----
-product: Technical Guide
-capability:
-infotype: Overview
-audience:
----
+
 
 # Data Persistence and Management
 

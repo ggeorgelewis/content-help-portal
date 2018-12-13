@@ -1,11 +1,4 @@
----
 
-product: Know Your Customer
-capability: actions
-infotype: task
-audience: KYC Analyst, Finance Manager
-
----
 # Document Request \(Load Template Button\)
 
 Users can request documents by using a pre-existing _**template**_ from a list of templates.

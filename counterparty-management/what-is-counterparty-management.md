@@ -1,11 +1,4 @@
----
 
-product: Counterparty Management
-capability:
-infotype: Overview
-audience:
-
----
 # What is Counterparty Management?
 
 Counterparty Management enables organisations to manage the pre-authorization process of digitally exchanging documents and messages with other entities. 

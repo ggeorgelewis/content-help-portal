@@ -3,7 +3,6 @@
 ## komgo User Documentation
 
 * [komgo Platform Overview](README.md)
-* [Testing file 1](testing-file-1.md)
 
 ## User Administration
 

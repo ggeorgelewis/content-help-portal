@@ -1,10 +1,4 @@
----
-product: User Administration
-capability: screens
-infotype: Overview
-audience:
 
----
 
 # User Administration Screens
 

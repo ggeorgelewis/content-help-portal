@@ -1,9 +1,4 @@
----
-product: Trade Finance
-capability:
-infotype: Overview
-audience:
----
+
 
 # Middle/Back Office Manager  \(Banks\)
 

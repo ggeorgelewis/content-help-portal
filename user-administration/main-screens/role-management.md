@@ -1,9 +1,4 @@
----
-product: User Administration
-capability: screens
-infotype: Landingpage
-audience: null
----
+
 
 # Role Management
 

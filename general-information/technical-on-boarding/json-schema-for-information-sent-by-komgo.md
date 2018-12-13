@@ -1,9 +1,4 @@
----
-product: Technical Guide
-capability:
-infotype: Overview
-audience:
----
+
 
 # JSON Schema for Information Sent by komgo
 

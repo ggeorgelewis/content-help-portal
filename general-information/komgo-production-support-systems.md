@@ -1,9 +1,4 @@
----
-product: Technical Guide
-capability:
-infotype: Overview
-audience:
----
+
 
 # komgo Production Support Systems
 

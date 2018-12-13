@@ -1,11 +1,4 @@
----
 
-product: User Administration
-capability: 
-infotype: Overview
-audience: 
-
----
 # What is User Administration?
 
 User Administration refers to the management of roles and users on the komgo platform.

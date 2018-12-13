@@ -1,11 +1,4 @@
----
 
-product: Know Your Customer
-capability: actions
-infotype: task
-audience: KYC Analyst, Finance Manager
-
----
 # Register Document
 
 If a document has been requested which has not been automatched from the users document library, responding users can _**select**_ and _**deselect**_ documents to the proposed reply.

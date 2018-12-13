@@ -1,11 +1,4 @@
----
 
-product: User Administration
-capability: actions
-infotype: overview
-audience: 
-
----
 # User management
 
 #### _View users_

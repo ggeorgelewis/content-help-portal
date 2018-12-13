@@ -1,11 +1,4 @@
----
 
-product: User Administration
-capability: User Administration
-infotype: Concept
-audience: 
-
----
 # User Administration on komgo
 
 On the komgo platform, roles and users are managed by the Administrator at the company level. The komgo platform verifies that every action a user performs on the platform has been authorized in the context of the role and permitted actions assigned to them by the Administrator.

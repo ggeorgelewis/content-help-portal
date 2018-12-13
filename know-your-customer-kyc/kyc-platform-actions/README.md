@@ -1,9 +1,4 @@
----
-product: Know Your Customer
-capability: actions
-infotype: Overview
-audience: null
----
+
 
 # KYC platform actions
 

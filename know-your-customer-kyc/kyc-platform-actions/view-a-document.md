@@ -1,11 +1,4 @@
----
 
-product: Know Your Customer
-capability: actions
-infotype: task
-audience: KYC Analyst, Finance Manager
-
----
 # View a Document
 
 All users can view the documents which they have registered and uploaded in their document library.

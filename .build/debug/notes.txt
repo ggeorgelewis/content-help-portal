@@ -1,0 +1,10 @@
+
+
+vmdovs@ubuntu:/mnt/finalSolution/build-help-portal/.build/apache2/help-portal/_site$ tree | grep .md
+│   ├── counterparty-management.md
+│   │   ├── check-if-all-containers-are-running.md
+├── SUMMARY.md
+│   └── view-trade-dashboard.md
+    ├── testing-file-2.md
+vmdovs@ubuntu:/mnt/finalSolution/build-help-portal/.build/apache2/help-portal/_site$ 
+

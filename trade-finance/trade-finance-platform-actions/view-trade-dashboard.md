@@ -1,9 +1,4 @@
----
-product: Trade Finance
-capability: actions
-infotype: task
-audience:
----
+
 
 # View Trade dashboard 
 

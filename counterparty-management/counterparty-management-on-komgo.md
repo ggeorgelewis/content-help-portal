@@ -1,9 +1,4 @@
----
-product: Counterparty Management
-capability: Counterparty Management
-infotype: Concept
-audience:
----
+
 
 # Counterparty Management on komgo
 

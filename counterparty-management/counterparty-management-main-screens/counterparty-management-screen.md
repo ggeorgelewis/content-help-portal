@@ -1,9 +1,4 @@
----
-product: Counterparty Management
-capability: screens
-infotype: Landingpage
-audience:
----
+
 
 # Counterparty Management Screen
 

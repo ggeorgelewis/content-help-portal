@@ -1,9 +1,4 @@
----
-product: Know Your Customer
-capability: Know Your Customer
-infotype: Concept
-audience: null
----
+
 
 # KYC on komgo
 

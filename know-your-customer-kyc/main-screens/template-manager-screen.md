@@ -1,9 +1,4 @@
----
-product: Know Your Customer
-capability: screens
-infotype: Landingpage
-audience: null
----
+
 
 # Template Manager Screen
 

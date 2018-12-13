@@ -1,10 +1,4 @@
----
-product: Know Your Customer
-capability: screens
-infotype: Overview
-audience:
 
----
 
 # KYC Screens
 

@@ -1,9 +1,4 @@
----
-product: Counterparty Management
-capability: actions
-infotype: Overview
-audience: null
----
+
 
 # Counterparty Management Platform Actions
 

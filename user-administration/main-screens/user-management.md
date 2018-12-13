@@ -1,10 +1,4 @@
----
-product: User Administration
-capability: screens
-infotype: Landingpage
-audience:
 
----
 
 # User Management
 

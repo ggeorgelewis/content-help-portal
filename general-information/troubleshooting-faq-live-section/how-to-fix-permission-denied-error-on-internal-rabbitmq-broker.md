@@ -1,9 +1,4 @@
----
-product: Technical Guide
-capability:
-infotype: Overview
-audience:
----
+
 
 # How to fix “Permission Denied” error on Internal RabbitMQ Broker
 

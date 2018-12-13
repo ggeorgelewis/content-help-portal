@@ -1,9 +1,4 @@
----
-product: Trade Finance
-capability:
-infotype: Overview
-audience:
----
+
 
 # Trade Finance on komgo
 

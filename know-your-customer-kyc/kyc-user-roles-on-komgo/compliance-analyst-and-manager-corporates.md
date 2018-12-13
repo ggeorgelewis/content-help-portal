@@ -1,10 +1,4 @@
----
-product: Know Your Customer
-capability: 
-infotype: Overview
-audience:
 
----
 
 # Compliance Analyst &amp; Manager \(Corporates\)
 

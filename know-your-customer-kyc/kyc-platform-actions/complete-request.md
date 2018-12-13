@@ -1,11 +1,4 @@
----
 
-product: Know Your Customer
-capability: actions
-infotype: task
-audience: KYC Analyst, Finance Manager
-
----
 # Complete Request
 
 When responding to a document request, users receive a notification of a document request from a counterparty which they must be able to fulfil.

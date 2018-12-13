@@ -1,10 +1,4 @@
----
-product: Counterparty Management
-capability: screens
-infotype: Overview
-audience:
 
----
 
 # Counterparty Management Main Screens
 

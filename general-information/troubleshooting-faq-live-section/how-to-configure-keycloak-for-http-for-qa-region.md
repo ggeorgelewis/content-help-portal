@@ -1,9 +1,4 @@
----
-product: Technical Guide
-capability:
-infotype: Overview
-audience:
----
+
 
 # How to configure Keycloak for HTTP \(for QA region\)
 
