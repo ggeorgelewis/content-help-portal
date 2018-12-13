@@ -12,7 +12,6 @@
   * ARTIFACT_PASSWORD  
   * ARTIFACT_USERNAME
 
-
 ##Execution
 * Docker login -u ARTIFACT_USERNAME
 * docker pull ARTIFACT_USERNAME/help-site
