@@ -15,7 +15,7 @@
 * [Administration Platform Actions](user-administration/administration-platform-actions.md)
   * [Role management](user-administration/administration-platform-actions/role-management.md)
   * [User management](user-administration/administration-platform-actions/user-management.md)
-  * [testing article 4](user-administration/administration-platform-actions/testing-article-4.md)
+  * [test](user-administration/administration-platform-actions/testing-article-4/test.md)
 
 ## Counterparty Management
 
