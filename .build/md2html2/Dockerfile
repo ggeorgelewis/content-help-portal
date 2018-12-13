@@ -15,9 +15,6 @@ RUN sed -i -e 's/(README.md)/(index.md)/g' SUMMARY.md
 # find/replace .md file extensions to .html on all links
 RUN find . -type f -name "*.md" -print0 | xargs -0 sed -i -e 's/.md/.html/g'
 
-# Add empty front matter to all md pages or jekyll will not process them
-RUN find . -type f -name "*.md" -print0 | xargs -0 sed -i  '1i---\n---'
-
 # find/add {{ site.baseurl}}/assets to all images in markdown
 RUN find . -type f -name "*.md" -print0 | xargs -0 sed -i -e 's/\/assets\//{{ site.baseurl }}\/assets\//g'
 
@@ -30,6 +27,9 @@ RUN pandoc --from gfm --to html SUMMARY.md --output _includes/SUMMARY.html
 
 #  add {{ site.baseurl }} to all links in SUMMARY.html
 RUN sed -i -e 's/href="/href="{{ site.baseurl }}\//g' _includes/SUMMARY.html
+
+# Add empty front matter to all md pages or jekyll will not process them
+RUN find . -type f -name "*.md" -print0 | xargs -0 sed -i  '1i---\n---'
 
 RUN cp -rf /demo-content/* /build/
 
