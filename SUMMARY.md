@@ -112,5 +112,3 @@
 
 ## FAQs - Questions and Answers
 
-* [How to do this](faqs-questions-and-answers/how-to-do-this.md)
-
