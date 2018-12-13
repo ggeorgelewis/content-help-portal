@@ -3,9 +3,7 @@ before_install:
   - sudo apt-get update -qq
   - sudo apt-get install realpath python python-pip -y
   - sudo apt-get install --only-upgrade docker-ce -y
-  - sudo apt-get install tree -y
 after_success:
-  - tree 
   - mkdir .build/md2html2/demo-content
   - cp -r * .build/md2html2/demo-content/
   - cd .build/md2html2/
