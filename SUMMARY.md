@@ -15,7 +15,6 @@
 * [Administration Platform Actions](user-administration/administration-platform-actions.md)
   * [Role management](user-administration/administration-platform-actions/role-management.md)
   * [User management](user-administration/administration-platform-actions/user-management.md)
-* [Testing file 3](user-administration/testing-file-3.md)
 
 ## Counterparty Management
 
